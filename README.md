@@ -8,23 +8,23 @@ Kurssin lähiopetus järjestetään maanantaisin ja keskiviikkoisin klo 8:15-10:
 
 |     | PVM    | Alustavat aiheet                                                                                                       |
 |-----|--------|------------------------------------------------------------------------------------------------------------------------|
-| Ma  | 20.1.  | Kurssin järjestelyt ja osallistumisen vahvistaminen Eclipse-sovelluskehitin Perustietotyypit Yksinkertainen ehtolause  |
-| Ke  | 22.1.  | Monimutkaisempi ehtolause Toistolauseet                                                                                |
+| Ma  | 20.1.  | Kurssin järjestelyt ja osallistumisen vahvistaminen <br />Eclipse-sovelluskehitin<br /> Perustietotyypit<br /> Yksinkertainen ehtolause  |
+| Ke  | 22.1.  | Monimutkaisempi ehtolause<br /> Toistolauseet                                                                                |
 | Ma  | 27.1.  | Merkkijonot                                                                                                            |
 | Ke  | 29.1.  | Staattiset luokkametodit, parametrit ja paluuarvot                                                                     |
 | Ma  | 3.2.   | Listat                                                                                                                 |
 | Ke  | 5.2.   | Taulukot                                                                                                               |
-| Ma  | 10.2.  | Päivämäärät Ohjelman paketointi ja suorittaminen Eclipsen ulkopuolella - komentoriviparametrit                         |
-| Ke  | 12.2.  | Olio-ohjelmoinnin alkeet: Käsitteet luokka ja olio Oliometodit ja -muuttujat Olioiden luominen ja hyödyntäminen        |
+| Ma  | 10.2.  | Päivämäärät<br /> Ohjelman paketointi ja suorittaminen Eclipsen ulkopuolella<br />Komentoriviparametrit                         |
+| Ke  | 12.2.  | Olio-ohjelmoinnin alkeet<br />Käsitteet luokka ja olio<br />Oliometodit ja -muuttujat<br />Olioiden luominen ja hyödyntäminen        |
 | Ma  | 17.2.  | Intensiiviviikko                                                                                                       |
 | Ke  | 19.2.  | Intensiiviviikko                                                                                                       |
-| Ma  | 24.2.  | Olio-ohjelmointi jatkuu: Luokkien yhteyssuhteet Olioita listoilla ja listoja olioissa                                  |
+| Ma  | 24.2.  | Olio-ohjelmointi jatkuu:<br />Luokkien yhteyssuhteet<br />Olioita listoilla ja listoja olioissa                                  |
 | Ke  | 26.2.  | Map-tietorakenne                                                                                                       |
 | Ma  | 2.3.   | Poikkeukset                                                                                                            |
 | Ke  | 4.3.   | "How to think like a programmer" -työpaja (ehdotus)                                                                    |
 | Ma  | 9.3.   | Rajapinnat (interfaces) Periytyminen Comparable-rajapinnan toteuttaminen                                               |
 | Ke  | 11.3.  |                                                                                                                        |
-| Ma  | 16.3.  | Kokeeseen kertaus työpajamuotoisesti - käytännön harjoitus Clean code -hengessä                                        |
+| Ma  | 16.3.  | Kokeeseen kertaus työpajamuotoisesti<br /> - käytännön harjoitus Clean code -hengessä                                        |
 | Ke  | 18.3.  | Koe  
 
 
