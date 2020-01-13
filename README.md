@@ -12,28 +12,29 @@ Kurssin lähiopetus järjestetään maanantaisin ja keskiviikkoisin klo 8:15-10:
             <th>&nbsp;</th>
             <th>PVM</th>
             <th>Alustavat aiheet</th>
-            <th>&nbsp;</th>
         </tr>
     </thead>
     <tbody>
         <tr>
             <td>Ma</td>
             <td>20.1.</td>
-            <td>Kurssin järjestelyt ja osallistumisen vahvistaminen<br />
+            <td>
+                Kurssin järjestelyt ja osallistumisen vahvistaminen<br />
                 Eclipse-sovelluskehitin<br />
                 Perustietotyypit<br />
                 Yksinkertainen ehtolause<br />
-                <a href="muistiinpanot/01_tietotyypit_ja_ehtolauseet.md">📝 Muistiinpanot</a></td>
+                <a href="muistiinpanot/01_tietotyypit_ja_ehtolauseet.md">📝 Muistiinpanot</a>
+            </td>
         </tr>
         <tr>
             <td>Ke</td>
             <td>22.1.</td>
-            <td>Monimutkaisempi ehtolause<br />Toistolauseet</td>
+            <td>Ehtolauseet</td>
         </tr>
         <tr>
             <td>Ma</td>
             <td>27.1.</td>
-            <td>Merkkijonot</td>
+            <td>Toistolauseet, merkkijonot</td>
         </tr>
         <tr>
             <td>Ke</td>
@@ -53,39 +54,41 @@ Kurssin lähiopetus järjestetään maanantaisin ja keskiviikkoisin klo 8:15-10:
         <tr>
             <td>Ma</td>
             <td>10.2.</td>
-            <td>Päivämäärät<br />Ohjelman paketointi ja suorittaminen Eclipsen ulkopuolella<br />Komentoriviparametrit
+            <td>
+                Päivämäärät<br />
+                Ohjelman paketointi ja suorittaminen Eclipsen ulkopuolella<br />
+                Komentoriviparametrit
             </td>
         </tr>
         <tr>
             <td>Ke</td>
             <td>12.2.</td>
-            <td>Olio-ohjelmoinnin alkeet<br />Käsitteet luokka ja olio<br />Oliometodit ja -muuttujat<br />Olioiden
-                luominen ja hyödyntäminen</td>
+            <td>
+                Olio-ohjelmoinnin alkeet<br />
+                Käsitteet luokka ja olio<br />
+                Oliometodit ja -muuttujat<br />
+                Olioiden luominen ja hyödyntäminen
+            </td>
         </tr>
         <tr>
             <td>Ma</td>
             <td>17.2.</td>
-            <td>Intensiiviviikko</td>
+            <td><del>Intensiiviviikko</del></td>
         </tr>
         <tr>
             <td>Ke</td>
             <td>19.2.</td>
-            <td>Intensiiviviikko</td>
+            <td><del>Intensiiviviikko</del></td>
         </tr>
         <tr>
             <td>Ma</td>
             <td>24.2.</td>
-            <td>Olio-ohjelmointi jatkuu:</td>
-        </tr>
-        <tr>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>Luokkien yhteyssuhteet</td>
-        </tr>
-        <tr>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>Olioita listoilla ja listoja olioissa</td>
+            <td>
+                Olio-ohjelmointi jatkuu:<br/>
+                Luokkien yhteyssuhteet<br/>
+                Olioita listoilla ja listoja olioissa<br/>
+                `equals`-metodi
+            </td>
         </tr>
         <tr>
             <td>Ke</td>
@@ -105,17 +108,27 @@ Kurssin lähiopetus järjestetään maanantaisin ja keskiviikkoisin klo 8:15-10:
         <tr>
             <td>Ma</td>
             <td>9.3.</td>
-            <td>Rajapinnat (interfaces) Periytyminen Comparable-rajapinnan toteuttaminen</td>
+            <td>
+                Rajapinnat (interfaces<br />
+                Periytyminen<br />
+                Comparable-rajapinnan toteuttaminen
+            </td>
         </tr>
         <tr>
             <td>Ke</td>
             <td>11.3.</td>
-            <td>&nbsp;</td>
+            <td>
+                Ohjelmointityökalut<br />
+                Virheiden paikantaminen
+            </td>
         </tr>
         <tr>
             <td>Ma</td>
             <td>16.3.</td>
-            <td>Kokeeseen kertaus työpajamuotoisesti<br />- käytännön harjoitus Clean code -hengessä</td>
+            <td>
+                Kokeeseen kertaus työpajamuotoisesti<br />
+                - käytännön harjoitus Clean code -hengessä
+            </td>
         </tr>
         <tr>
             <td>Ke</td>
