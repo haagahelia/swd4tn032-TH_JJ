@@ -6,27 +6,124 @@ Kurssin lähiopetus järjestetään maanantaisin ja keskiviikkoisin klo 8:15-10:
 
 ## Aikataulu
 
-|     | PVM    | Alustavat aiheet                                                                                                       |
-|-----|--------|------------------------------------------------------------------------------------------------------------------------|
-| Ma  | 20.1.  | Kurssin järjestelyt ja osallistumisen vahvistaminen <br />Eclipse-sovelluskehitin<br /> Perustietotyypit<br /> Yksinkertainen ehtolause<br />[📝 Muistiinpanot](muistiinpanot/01_tietotyypit_ja_ehtolauseet.md) |
-| Ke  | 22.1.  | Monimutkaisempi ehtolause<br /> Toistolauseet                                                                                |
-| Ma  | 27.1.  | Merkkijonot                                                                                                            |
-| Ke  | 29.1.  | Staattiset luokkametodit, parametrit ja paluuarvot                                                                     |
-| Ma  | 3.2.   | Listat                                                                                                                 |
-| Ke  | 5.2.   | Taulukot                                                                                                               |
-| Ma  | 10.2.  | Päivämäärät<br /> Ohjelman paketointi ja suorittaminen Eclipsen ulkopuolella<br />Komentoriviparametrit                         |
-| Ke  | 12.2.  | Olio-ohjelmoinnin alkeet<br />Käsitteet luokka ja olio<br />Oliometodit ja -muuttujat<br />Olioiden luominen ja hyödyntäminen        |
-| Ma  | 17.2.  | Intensiiviviikko                                                                                                       |
-| Ke  | 19.2.  | Intensiiviviikko                                                                                                       |
-| Ma  | 24.2.  | Olio-ohjelmointi jatkuu:<br />Luokkien yhteyssuhteet<br />Olioita listoilla ja listoja olioissa                                  |
-| Ke  | 26.2.  | Map-tietorakenne                                                                                                       |
-| Ma  | 2.3.   | Poikkeukset                                                                                                            |
-| Ke  | 4.3.   | "How to think like a programmer" -työpaja (ehdotus)                                                                    |
-| Ma  | 9.3.   | Rajapinnat (interfaces) Periytyminen Comparable-rajapinnan toteuttaminen                                               |
-| Ke  | 11.3.  |                                                                                                                        |
-| Ma  | 16.3.  | Kokeeseen kertaus työpajamuotoisesti<br /> - käytännön harjoitus Clean code -hengessä                                        |
-| Ke  | 18.3.  | Koe  
-
+<table>
+    <thead>
+        <tr>
+            <th>&nbsp;</th>
+            <th>PVM</th>
+            <th>Alustavat aiheet</th>
+            <th>&nbsp;</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Ma</td>
+            <td>20.1.</td>
+            <td>Kurssin järjestelyt ja osallistumisen vahvistaminen<br />
+                Eclipse-sovelluskehitin<br />
+                Perustietotyypit<br />
+                Yksinkertainen ehtolause<br />
+                <a href="muistiinpanot/01_tietotyypit_ja_ehtolauseet.md">📝 Muistiinpanot</a></td>
+        </tr>
+        <tr>
+            <td>Ke</td>
+            <td>22.1.</td>
+            <td>Monimutkaisempi ehtolause<br />Toistolauseet</td>
+        </tr>
+        <tr>
+            <td>Ma</td>
+            <td>27.1.</td>
+            <td>Merkkijonot</td>
+        </tr>
+        <tr>
+            <td>Ke</td>
+            <td>29.1.</td>
+            <td>Staattiset luokkametodit, parametrit ja paluuarvot</td>
+        </tr>
+        <tr>
+            <td>Ma</td>
+            <td>3.2.</td>
+            <td>Listat</td>
+        </tr>
+        <tr>
+            <td>Ke</td>
+            <td>5.2.</td>
+            <td>Taulukot</td>
+        </tr>
+        <tr>
+            <td>Ma</td>
+            <td>10.2.</td>
+            <td>Päivämäärät<br />Ohjelman paketointi ja suorittaminen Eclipsen ulkopuolella<br />Komentoriviparametrit
+            </td>
+        </tr>
+        <tr>
+            <td>Ke</td>
+            <td>12.2.</td>
+            <td>Olio-ohjelmoinnin alkeet<br />Käsitteet luokka ja olio<br />Oliometodit ja -muuttujat<br />Olioiden
+                luominen ja hyödyntäminen</td>
+        </tr>
+        <tr>
+            <td>Ma</td>
+            <td>17.2.</td>
+            <td>Intensiiviviikko</td>
+        </tr>
+        <tr>
+            <td>Ke</td>
+            <td>19.2.</td>
+            <td>Intensiiviviikko</td>
+        </tr>
+        <tr>
+            <td>Ma</td>
+            <td>24.2.</td>
+            <td>Olio-ohjelmointi jatkuu:</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>Luokkien yhteyssuhteet</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>Olioita listoilla ja listoja olioissa</td>
+        </tr>
+        <tr>
+            <td>Ke</td>
+            <td>26.2.</td>
+            <td>Map-tietorakenne</td>
+        </tr>
+        <tr>
+            <td>Ma</td>
+            <td>2.3.</td>
+            <td>Poikkeukset</td>
+        </tr>
+        <tr>
+            <td>Ke</td>
+            <td>4.3.</td>
+            <td>"How to think like a programmer" -työpaja (ehdotus)</td>
+        </tr>
+        <tr>
+            <td>Ma</td>
+            <td>9.3.</td>
+            <td>Rajapinnat (interfaces) Periytyminen Comparable-rajapinnan toteuttaminen</td>
+        </tr>
+        <tr>
+            <td>Ke</td>
+            <td>11.3.</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>Ma</td>
+            <td>16.3.</td>
+            <td>Kokeeseen kertaus työpajamuotoisesti<br />- käytännön harjoitus Clean code -hengessä</td>
+        </tr>
+        <tr>
+            <td>Ke</td>
+            <td>18.3.</td>
+            <td>Koe</td>
+        </tr>
+    </tbody>
+</table>
 
 
 # Kurssin sisältö
