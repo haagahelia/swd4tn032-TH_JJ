@@ -8,7 +8,7 @@ Kurssin lähiopetus järjestetään maanantaisin ja keskiviikkoisin klo 8:15-10:
 
 |     | PVM    | Alustavat aiheet                                                                                                       |
 |-----|--------|------------------------------------------------------------------------------------------------------------------------|
-| Ma  | 20.1.  | Kurssin järjestelyt ja osallistumisen vahvistaminen <br />Eclipse-sovelluskehitin<br /> Perustietotyypit<br /> Yksinkertainen ehtolause  |
+| Ma  | 20.1.  | Kurssin järjestelyt ja osallistumisen vahvistaminen <br />Eclipse-sovelluskehitin<br /> Perustietotyypit<br /> Yksinkertainen ehtolause<br />[📝 Muistiinpanot](muistiinpanot/01_tietotyypit_ja_ehtolauseet.md) |
 | Ke  | 22.1.  | Monimutkaisempi ehtolause<br /> Toistolauseet                                                                                |
 | Ma  | 27.1.  | Merkkijonot                                                                                                            |
 | Ke  | 29.1.  | Staattiset luokkametodit, parametrit ja paluuarvot                                                                     |
