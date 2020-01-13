@@ -171,10 +171,12 @@ Java SE Development Kit (vähintään versio 8)
 Harjoitustehtävien automaattinen arviointi, rekisteröidy: https://vw4.viope.com/login?org=hh
 
 **Teams**
+
 Tiedotuskanava, tiedostojen arkisto ja harjoitustehtävien keskustelualusta
 https://teams.microsoft.com  (kirjautuminen Haaga-Helian käyttäjätunnuksellasi)
 
 **GitHub ja HH:n videopalvelu**
+
 https://github.com/haagahelia/swd4tn032-3005
 
 
