@@ -171,25 +171,29 @@ Arvostellaan asteikolla 0-5
 
 ## Kurssin työkalut
 
-**Eclipse IDE**
+**Java ja Eclipse IDE**
 
-Integrated Development Environment. Saat käyttää myös muita työkaluja, mutta niihin ei voida tarjota käyttötukea
+Tarvitset Java-ohjelmien kehittämiseksi ja suorittamiseksi [Java JDK](https://www.oracle.com/technetwork/java/javase/downloads/index.html):n (vähintään versio 8). Lähdekooditiedostojen editointiin ja ohjelmien suorittamiseen käytämme tällä kurssilla Eclipse-kehitysympäristöä, jonka voit ladata itsellesi [täältä](https://www.eclipse.org/downloads/packages/). Ole tarkkana ja valitse Eclipse IDE for Java EE Developers, kun asennusohjelma kysyy asennuksen tyyppiä.
 
-**Java**
-
-Java SE Development Kit (vähintään versio 8)
+Saat käyttää myös muita työkaluja, mutta niihin ei voida tarjota käyttötukea.
 
 **Viope**
 
-Harjoitustehtävien automaattinen arviointi, rekisteröidy: https://vw4.viope.com/login?org=hh
+Harjoitustehtävien automaattinen arviointi, rekisteröidy Viopeen osoitteessa: https://vw4.viope.com/login?org=hh. Huomaa että rekisteröitymisosoitteessa on oltava parametri `?org=hh` jotta pääset käsiksi Haaga-Helian kurssitarjontaan.
 
 **Teams**
 
-Tiedotuskanava, tiedostojen arkisto ja harjoitustehtävien keskustelualusta
-https://teams.microsoft.com  (kirjautuminen Haaga-Helian käyttäjätunnuksellasi)
+Tällä kurssilla käytetään pääasiassa Microsoftin Teams -palvelua. Teams on osoittautunut oivalliseksi tueksi itseopiskelussa ja se tarjoaa luontevamman kanavan kysyä ja keskustella kuin esimerkiksi Moodle. Jos jäät jumiin koodisi kanssa tai et ymmärrä materiaaleja tai tehtävänantoja, kysy rohkeasti vinkkejä Teamsissa. Todennäköisesti samaa ongelmaa pohtii kanssasi myös moni muu, joten lähetäthän sisältöä ja tehtävänantoja koskevat kysymykset yhteiselle kanavalle (eikä yksityisviestinä opettajalle).
 
-**GitHub ja HH:n videopalvelu**
+Teamsissa voi myös esittää toivomuksia kurssin kehittämiseksi jo kurssin aikana niin yksityisviesteinä opettajalle kuin yhteisillä kanavilla. Tämä kurssi ei ole suinkaan valmis, vaan sitä kehitetään kurssin etenemisen mukaan.
 
-https://github.com/haagahelia/swd4tn032-3005
+Teams on saatavilla puhelimien sovelluskaupoista sekä työpöytäsovelluksena, tai voit käyttää sitä selaimen web-käyttöliittymässä ilman asennuksia. Kirjautuminen Teamsiin tapahtuu Haaga-Helian `myy.haaga-helia.fi`-tunnuksella.
 
+* Web-käyttöliittymä: https://teams.microsoft.com/
+* Lataussivu: https://teams.microsoft.com/downloads
 
+**GitHub**
+
+Kurssin tehtäväpohjien ja malliratkaisujen jakelussa hyödynnetään ohjelmistokehityksen alalla erittäin vakiintunutta Git-versionhallintaa ja GitHub-palvelua. Voit kloonata itsellesi kurssin projektin osoitteesta https://github.com/haagahelia/swd4tn032-3005. Kurssin edetessä projektiin lisätään uusia tiedostoja, jotka voit päivittää itsellesi Git:in avulla.
+
+Gitin käytön opetteluun voit käyttää esimerkiksi Helsingin yliopiston erinomaista "Tietokone Työvälineenä"-kurssin Git-materiaalia: https://tkt-lapio.github.io/git/. Vaikka Git tuntuisi aluksi vaikealta tai ahdistavalta, sinun ei tarvitse opetella kaikkea kerralla, vaan tee vain sen verran mistä on sinulle välitöntä hyötyä.
