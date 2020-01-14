@@ -255,7 +255,7 @@ Liukulukujen laskuvirhe ei niinkään liity Javaan, vaan yleisesti siihen, miten
 
 ### Aritmeettiset operaatiot
 
-
+```
 Operaattori | Käyttötarkoitus
 ------------|----------------
 +           | Yhteenlasku (myös merkkijonojen yhdistäminen)
@@ -263,6 +263,7 @@ Operaattori | Käyttötarkoitus
 *           | Kertolasku
 /           | Jakolasku
 %           | Jakojäännös
+```
 
 Lähde: https://docs.oracle.com/javase/tutorial/java/nutsandbolts/op1.html
 
@@ -283,11 +284,50 @@ Lähde: https://docs.oracle.com/javase/tutorial/java/nutsandbolts/op1.html
 // tulosta ei pyöristetä ja desimaaliosa "katkeaa" pois:
 9 / 2 = 4
 
-
-(1.0 * 9) / 2 = 4.5
+// Jos a ja b ovat kokonaislukuja, saadaan jakolaskun tulokseksi
+// liukuluku (c) kertomalla ensin esim. jaettava luku liukuluvulla:
+(1.0 * a) / b = c
 ```
 
 Jos vähintään toinen luvuista on liukuluku, tulee myös tuloksesta liukuluku, jolloin katkaisua ei tapahdu. Kokonaisluvusta saadaan liukuluku helposti esim. kertomalla se luvulla 1.0.
+
+## Lukujen pyöristäminen sekä ceil ja floor
+
+Javan `Math`-luokasta löytyy lisäksi lukuisia erilaisia metodeja, joiden avulla voidaan pyöristää ylös, alas tai lähimpään kokonaislukuun:
+
+```java
+// Pyöristys aina alaspäin: 6.0
+double a = Math.floor(6.8);
+
+// Pyöristys aina ylöspäin: 7.0
+double b = Math.ceil(6.1); 
+
+// Pyöristys aina lähimpään tasalukuun: 6.0
+double c = Math.round(5.6); 
+```
+
+Math.ceil:
+> Returns the smallest (closest to negative infinity) double value that is greater than or equal to the argument and is equal to a mathematical integer. 
+>
+> https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Math.html#ceil(double)
+
+Math.floor:
+> Returns the largest (closest to positive infinity) double value that is less than or equal to the argument and is equal to a mathematical integer.
+>
+> https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Math.html#floor(double)
+
+Math.round:
+> Returns the closest int to the argument, with ties rounding to positive infinity.
+>
+> https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Math.html#round(double)
+
+### Liukuluvun muuttaminen kokonaisluvuksi
+
+Liukuluvulle voidaan tehdä **tyyppimuunos** kokonaisluvuksi kirjoittamalla sen eteen suluissa `(int)`:
+
+```java
+int a = (int) Math.round(5.6); 
+```
 
 ### Yksittäisten arvojen operaatiot
 
@@ -353,7 +393,7 @@ public class LukujenKeskiarvo {
 }
 ```
 
-Tehtävä on lainattu [Helsingin Yliopiston ohjelmointikurssilta](https://2017-ohjelmointi.github.io/part1/#exercise-8-kolmen-luvun-keskiarvo) ja se on lisensoitu Creative Commons BY-NC-SA-lisenssillä.
+Tehtävä on lainattu [Helsingin yliopiston Agile Education Research -tutkimusryhmän ohjelmointikurssilta](https://2017-ohjelmointi.github.io/part1/#exercise-8-kolmen-luvun-keskiarvo) ja se on lisensoitu Creative Commons BY-NC-SA-lisenssillä.
 
 ## Syötteen lukeminen näppäimistöltä
 
@@ -424,9 +464,10 @@ Tarvitset tehtävässä `Scanner`-luokkaa syötteen lukemiseksi.
 
 Esimerkki ohjelman suorituksesta:
 
-    Syötä etunimi: Teppo
-    Hei Teppo!
-
+```
+Syötä etunimi: Teppo
+Hei Teppo!
+```
 
 # Totuusarvot ja ehtolauseet
 
@@ -554,16 +595,15 @@ Tee ohjelma `Ylinopeus.java`, joka kysyy käyttäjältä kokonaisluvun ja tulost
 
 Jos annettu luku on 120 tai vähemmän, ohjelmasi ei tule tulostaa mitään.
 
-Tehtävä on lainattu Helsingin Yliopiston ohjelmointikurssilta osoitteesta https://2017-ohjelmointi.github.io/part1/#exercise-16-ylinopeussakko  ja se on lisensoitu Creative Commons BY-NC-SA-lisenssillä.
+Tehtävä on lainattu Helsingin yliopiston Agile Education Research -tutkimusryhmän ohjelmointikurssilta osoitteesta https://2017-ohjelmointi.github.io/part1/#exercise-16-ylinopeussakko  ja se on lisensoitu Creative Commons BY-NC-SA-lisenssillä.
 
-    Kerro nopeus: 135 
-    Ylinopeussakko!
+```
+Kerro nopeus: 135 
+Ylinopeussakko!
+```
 
 ## Koodaustehtävä
 Kirjoita luokka `Tervehdys` ja siihen `main`-metodi, joka tulostaa kellonajasta riippuen erilaisen tervehdyksen.
-
-Palauta lopuksi kirjoittamasi koodi Viopeen (kappale 2, tehtävä 2)
-
 
 Aikaväli    | Tervehdys
 ---------   |----------
