@@ -2,7 +2,12 @@
 
 ## Lähiopetus
 
-Kurssin lähiopetus järjestetään maanantaisin ja keskiviikkoisin klo 8:15-10:45 luokassa luokissa: 5009 (SWD4TN032-3004 / Jukka) ja 5015 (SWD4TN032-3005 / Teemu).
+Kurssin lähiopetus järjestetään maanantaisin ja keskiviikkoisin klo 8:15-10:45 seuraavissa luokissa:
+
+* Luokka 5015 (SWD4TN032-3005 / Teemu) *tämä toteutus*
+* Luokka 5009 (SWD4TN032-3004 / Jukka)
+
+Tulemme tekemään kurssilla yhteistyötä rinnakkaisten toteutusten kesken ja tiedotamme yhteisten sessioiden aikatauluista ja sijainneista pääsääntöisesti oppitunneilla ja Teamsissa.
 
 ## Aikataulu
 
