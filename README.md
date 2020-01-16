@@ -124,12 +124,12 @@ Tulemme tekemään kurssilla yhteistyötä rinnakkaisten toteutusten kesken ja t
             <td>Ke</td>
             <td>11.3.</td>
             <td>
-                Sisältö varmistuu myöhemmin:
-                <ul>
+                Sisältö varmistuu myöhemmin
+                <!--ul>
                     <li>Rajapinnat</li>
                     <li>Periytyminen</li>
                     <li>Comparable-rajapinnan toteuttaminen</li>
-                </ul>
+                </ul-->
             </td>
         </tr>
         <tr>
