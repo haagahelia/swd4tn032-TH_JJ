@@ -40,12 +40,12 @@ Tulemme tekemään kurssilla yhteistyötä rinnakkaisten toteutusten kesken ja t
         <tr>
             <td>Ma</td>
             <td>27.1.</td>
-            <td>Toistolauseet, merkkijonot</td>
+            <td>Toistolauseet</td>
         </tr>
         <tr>
             <td>Ke</td>
             <td>29.1.</td>
-            <td>Staattiset luokkametodit, parametrit ja paluuarvot</td>
+            <td>Merkkijonot</td>
         </tr>
         <tr>
             <td>Ma</td>
@@ -61,19 +61,16 @@ Tulemme tekemään kurssilla yhteistyötä rinnakkaisten toteutusten kesken ja t
             <td>Ma</td>
             <td>10.2.</td>
             <td>
-                Päivämäärät<br />
-                Ohjelman paketointi ja suorittaminen Eclipsen ulkopuolella<br />
-                Komentoriviparametrit
+                Staattiset luokkametodit, parametrit ja paluuarvot
             </td>
         </tr>
         <tr>
             <td>Ke</td>
             <td>12.2.</td>
             <td>
-                Olio-ohjelmoinnin alkeet<br />
-                Käsitteet luokka ja olio<br />
-                Oliometodit ja -muuttujat<br />
-                Olioiden luominen ja hyödyntäminen
+                Päivämäärät<br />
+                Ohjelman paketointi ja suorittaminen Eclipsen ulkopuolella<br />
+                Komentoriviparametrit
             </td>
         </tr>
         <tr>
@@ -90,6 +87,16 @@ Tulemme tekemään kurssilla yhteistyötä rinnakkaisten toteutusten kesken ja t
             <td>Ma</td>
             <td>24.2.</td>
             <td>
+                Olio-ohjelmoinnin alkeet<br />
+                Käsitteet luokka ja olio<br />
+                Oliometodit ja -muuttujat<br />
+                Olioiden luominen ja hyödyntäminen
+            </td>
+        </tr>
+        <tr>
+            <td>Ke</td>
+            <td>26.2.</td>
+            <td>
                 Olio-ohjelmointi jatkuu:<br/>
                 Luokkien yhteyssuhteet<br/>
                 Olioita listoilla ja listoja olioissa<br/>
@@ -97,35 +104,32 @@ Tulemme tekemään kurssilla yhteistyötä rinnakkaisten toteutusten kesken ja t
             </td>
         </tr>
         <tr>
-            <td>Ke</td>
-            <td>26.2.</td>
-            <td>Map-tietorakenne</td>
-        </tr>
-        <tr>
             <td>Ma</td>
             <td>2.3.</td>
-            <td>Poikkeukset</td>
+            <td>Map-tietorakenne</td>
         </tr>
         <tr>
             <td>Ke</td>
             <td>4.3.</td>
-            <td>"How to think like a programmer" -työpaja (ehdotus)</td>
+            <td>Poikkeukset</td>
         </tr>
         <tr>
             <td>Ma</td>
             <td>9.3.</td>
             <td>
-                Rajapinnat (interfaces<br />
-                Periytyminen<br />
-                Comparable-rajapinnan toteuttaminen
+                "How to think like a programmer" -työpaja (ehdotus)
             </td>
         </tr>
         <tr>
             <td>Ke</td>
             <td>11.3.</td>
             <td>
-                Ohjelmointityökalut<br />
-                Virheiden paikantaminen
+                Sisältö varmistuu myöhemmin:
+                <ul>
+                    <li>Rajapinnat</li>
+                    <li>Periytyminen</li>
+                    <li>Comparable-rajapinnan toteuttaminen</li>
+                </ul>
             </td>
         </tr>
         <tr>
