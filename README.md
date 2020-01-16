@@ -106,7 +106,7 @@ Tulemme tekemään kurssilla yhteistyötä rinnakkaisten toteutusten kesken ja t
         <tr>
             <td>Ma</td>
             <td>2.3.</td>
-            <td>Map-tietorakenne</td>
+            <td<!-- Map-tietorakenne --></td>
         </tr>
         <tr>
             <td>Ke</td>
