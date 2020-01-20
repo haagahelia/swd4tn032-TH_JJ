@@ -194,6 +194,8 @@ Saat käyttää myös muita työkaluja, mutta niihin ei voida tarjota käyttötu
 
 Harjoitustehtävien automaattinen arviointi, rekisteröidy Viopeen osoitteessa: https://vw4.viope.com/login?org=hh. Huomaa että rekisteröitymisosoitteessa on oltava parametri `?org=hh` jotta pääset käsiksi Haaga-Helian kurssitarjontaan.
 
+Tyypillisiä Viope-virhetilanteita ja niiden ratkaisuja on dokumentoitu [tänne](muistiinpanot/viope_virhetilanteet.md).
+
 **Teams**
 
 Tällä kurssilla käytetään pääasiassa Microsoftin Teams -palvelua. Teams on osoittautunut oivalliseksi tueksi itseopiskelussa ja se tarjoaa luontevamman kanavan kysyä ja keskustella kuin esimerkiksi Moodle. Jos jäät jumiin koodisi kanssa tai et ymmärrä materiaaleja tai tehtävänantoja, kysy rohkeasti vinkkejä Teamsissa. Todennäköisesti samaa ongelmaa pohtii kanssasi myös moni muu, joten lähetäthän sisältöä ja tehtävänantoja koskevat kysymykset yhteiselle kanavalle (eikä yksityisviestinä opettajalle).
