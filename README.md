@@ -34,7 +34,8 @@ Tulemme tekemään kurssilla yhteistyötä rinnakkaisten toteutusten kesken ja t
                 <br />
                 <em>Lisämateriaali (Teams / monimuoto):</em><br />
                 <a href="https://haagahelia.sharepoint.com/:b:/r/teams/Ohjelmointi1/Class%20Materials/monimuoto/JavaEclipse.pdf?csf=1&e=2EHBDc">JavaEclipse.pdf</a>,
-                <a href="https://haagahelia.sharepoint.com/:b:/r/teams/Ohjelmointi1/Class%20Materials/monimuoto/Perusteita.pdf?csf=1&e=tfMUIW">Perusteita.pdf</a>
+                <a href="https://haagahelia.sharepoint.com/:b:/r/teams/Ohjelmointi1/Class%20Materials/monimuoto/Perusteita.pdf?csf=1&e=tfMUIW">Perusteita.pdf</a>,
+                <a href="https://haagahelia.sharepoint.com/:b:/r/teams/Ohjelmointi1/Class%20Materials/monimuoto/Viope.pdf?csf=1&e=6kafBQ">Viope.pdf</a>
             </td>
         </tr>
         <tr>

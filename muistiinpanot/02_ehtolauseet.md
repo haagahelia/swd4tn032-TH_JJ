@@ -1,8 +1,27 @@
 # Totuusarvot ja ehtolauseet
 
-Katso myös: [Ehtolauseet ja vaihtoehtoinen toiminta, Ohjelmoinnin MOOC 2020](https://ohjelmointi-20.mooc.fi/osa-1/6-ehtolauseet)
+Katso myös: [Ehtolauseet ja vaihtoehtoinen toiminta, Ohjelmoinnin MOOC 2020](https://ohjelmointi-20.mooc.fi/osa-1/6-ehtolauseet) ja [monimuotokurssin materiaali *Valintarakenne.pdf*](https://haagahelia.sharepoint.com/:b:/r/teams/Ohjelmointi1/Class%20Materials/monimuoto/Valintarakenne.pdf?csf=1&e=OiHQei).
 
-## Boolean-arvot (totuusarvot)
+Jatkossa kurssin GitHub-etusivun aikataulussa on linkit monimuotokurssin PDF-kalvosettiin!
+
+
+## Kertausta
+
+Mistä johtuu, että alla oleva luku näyttää olevan esitetty tarpeettoman suurella tarkkuudella?
+
+![Pyöristysvirhe](assets/pyoristysvirhe.png)
+
+Laskutoimitukset liukuluvuilla ovat erittäin nopeita. Tietokoneet käsittelevät mm. pelien grafiikkaa ja muuta matematiikkaa liukuluvuilla. Esim. Javascript ei muuta käytäkään. Liukulukujen toteutuksesta johtuen niillä laskettaessa esiintyy kuitenkin usein pieniä tarkkuusvirheitä, minkä vuoksi niitä ei tule käyttää täydellistä tarkkuutta vaativissa tarkoituksissa.
+
+Kokeile suorittaa seuraava yhteenlasku. Minkä tuloksen saat?
+
+```java
+System.out.println(0.1 + 0.2); 
+```
+
+Liukulukujen laskuvirhe ei niinkään liity Javaan, vaan yleisesti siihen, miten liukuluvut esitetään tietokoneen muistissa.
+
+# Boolean-arvot (totuusarvot)
 
 Javassa on kaksi totuusarvoa:
 
@@ -113,7 +132,7 @@ Lausekkeen `a || b` arvoksi tulee `true` aina, kun vähintään toinen arvoista 
 | false | false | false    |
 
 
-## If-ehtolause
+# If-ehtolause
 
 Totuusarvojen yleinen käyttötarkoitus on koodin suorittaminen vain tietyn ehdon täyttyessä. Tällöin tietyt koodirivit suoritetaan ainoastaan silloin, kun niille asetettu ehto toteutuu.
 
@@ -150,7 +169,7 @@ if (kello < 18) {
 }
 ```
 
-### Vertailu "== true"
+## Vertailu "== true"
 
 Toisinaan ehtolauseen sisään kirjoitetaan kirjoitettavan arvon vertailu `true`-arvoon:
 
@@ -164,7 +183,7 @@ Tämä on kuitenkin turhaa, koska `ehto == true` saa aina arvokseen saman arvon 
 if (ehto) { }
 ```
 
-### Loogisten operaattorien käyttäminen
+## Loogisten operaattorien käyttäminen
 
 Ehtolauseessa voidaan evaluoida myös monimutkaisempia lausekkeita, joissa tehdään useita eri vertailuja:
 
@@ -199,7 +218,7 @@ boolean onPaiva = (kello >= 10 && kello < 18);
 boolean onYo = (kello >= 22 || kello < 7);
 ```
 
-### Oikean kellonajan käyttäminen
+## Oikean kellonajan käyttäminen
 
 Kellonajan "kovakoodaaminen", kuten yllä, ei tietenkään ole toiminnallisesti järkevää. Oikeaa kellonaikaa voidaan käyttää esimerkiksi seuraavalla tavalla Javan `LocalTime`-luokan avulla (luokan alkuun "`import java.time.LocalTime;`"):
 
@@ -265,7 +284,7 @@ Aikaväli    | Tervehdys
 17:00-21:59 | Hyvää iltaa!
 22:00-6:59  | Hyvää yötä!
 
-## Syventävää osaamista: switch/case -rakenne 💪
+# Syventävää osaamista: switch/case -rakenne 💪
 ```java
 /** By Educative, Inc 
  * https://www.educative.io/edpresso/how-to-use-switch-case-statement-in-java

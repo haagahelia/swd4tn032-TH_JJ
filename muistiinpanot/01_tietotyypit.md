@@ -483,24 +483,31 @@ Liukulukuja tulostettaessa tulostettavien desimaalien määrä vaihtelee ja desi
 import java.text.DecimalFormat;
 ```
 
-
 Sen jälkeen luodaan uusi `DecimalFormat`-olio, jolle kerrotaan, missä muodossa luvut halutaan tulostaa. `"0.00"` muotoilee luvun kahden desimaalin tarkkuudella käyttäen käyttöjärjestelmän desimaalierotinta (pilkku).
 
 DecimalFormat-oliolla on `format`-metodi, joka muotoilee liukuluvun merkkijonoksi. Esimerkiksi:
 
 ```java
+// koodiin kirjoitetaan liukuluvut pisteellä eroteltuna:
+double liukuluku = 123.456;
+
+// liukuluvut tulostetaan normaalisti pisteellä eroteltuna ilman pyöristyksiä:
+System.out.println(liukuluku); // tulostaa 123.456
+
+/*
+ * Desimaaleja voidaan muotoilla DecimalFormat-luokan avulla. Tässä luomme uuden
+ * DecimalFormat-olion ja annamme sille muotoilusäännöksi "0.00". "0.00"
+ * muotoilee luvun kahden desimaalin tarkkuudella käyttäen käyttöjärjestelmän
+ * desimaalierotinta (Suomessa pilkku).
+ */
 DecimalFormat kaksiDesimaalia = new DecimalFormat("0.00");
 
-String tulos = kaksiDesimaalia.format(123.456789);
+// annetaan muotoiltava luku format-metodille, saadaan takaisin muotoiltu merkkijono
+String muotoiltu = kaksiDesimaalia.format(liukuluku);
 
-System.out.println(tulos);
+// tulostetaan lopulta muotoiltu merkkijono
+System.out.println(muotoiltu); // 123,46 <-- pyöristetty kahteen desimaaliin, erottimena pilkku
 ```
-
-1. Määritellään toivottu muoto
-2. Laitetaan luotu olio talteen uuteen muuttujaan
-3. Format-metodi muotoilee annetun liukuluvun
-4. Otetaan muotoiltu luku talteen uuteen muuttujaan
-5. Ruudulle tulostetaan lopulta luku 123,46
 
 # Viope-harjoitukset
 
