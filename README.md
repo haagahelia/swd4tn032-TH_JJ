@@ -32,7 +32,7 @@ Tulemme tekemään kurssilla yhteistyötä rinnakkaisten toteutusten kesken ja t
                 <a href="muistiinpanot/01_tietotyypit.md">📝 Muistiinpanot</a><br />
                 <a href="src/viikko1/perusteet/th">📁 Esimerkkikoodit (TH)</a><br />
                 <br />
-                <em>Lisämateriaali (monimuoto):</em> 🔒<br />
+                <em>Lisämateriaali (Teams / monimuoto):</em><br />
                 <a href="https://haagahelia.sharepoint.com/:b:/r/teams/Ohjelmointi1/Class%20Materials/monimuoto/JavaEclipse.pdf?csf=1&e=2EHBDc">JavaEclipse.pdf</a>,
                 <a href="https://haagahelia.sharepoint.com/:b:/r/teams/Ohjelmointi1/Class%20Materials/monimuoto/Perusteita.pdf?csf=1&e=tfMUIW">Perusteita.pdf</a>
             </td>
@@ -44,7 +44,7 @@ Tulemme tekemään kurssilla yhteistyötä rinnakkaisten toteutusten kesken ja t
                 Ehtolauseet<br />
                 <a href="muistiinpanot/02_ehtolauseet.md">📝 Muistiinpanot</a><br />
                 <br />
-                <em>Lisämateriaali (monimuoto):</em> 🔒<br />
+                <em>Lisämateriaali (Teams / monimuoto):</em><br />
                 <a href="https://haagahelia.sharepoint.com/:b:/r/teams/Ohjelmointi1/Class%20Materials/monimuoto/Scanner.pdf?csf=1&e=FXnuFA">Scanner.pdf</a>,
                 <a href="https://haagahelia.sharepoint.com/:b:/r/teams/Ohjelmointi1/Class%20Materials/monimuoto/Valintarakenne.pdf?csf=1&e=OiHQei">Valintarakenne.pdf</a>
             </td>
@@ -55,7 +55,7 @@ Tulemme tekemään kurssilla yhteistyötä rinnakkaisten toteutusten kesken ja t
             <td>
                 Toistolauseet<br />
                 <br />
-                <em>Lisämateriaali (monimuoto):</em> 🔒<br />
+                <em>Lisämateriaali (Teams / monimuoto):</em><br />
                 <a href="https://haagahelia.sharepoint.com/:b:/r/teams/Ohjelmointi1/Class%20Materials/monimuoto/Toistorakenne.pdf?csf=1&e=fjNvg0">Toistorakenne.pdf</a>
             </td>
         </tr>
@@ -65,7 +65,7 @@ Tulemme tekemään kurssilla yhteistyötä rinnakkaisten toteutusten kesken ja t
             <td>
                 Merkkijonot<br />
                 <br />
-                <em>Lisämateriaali (monimuoto):</em> 🔒<br />
+                <em>Lisämateriaali (Teams / monimuoto):</em><br />
                 <a href="https://haagahelia.sharepoint.com/:b:/r/teams/Ohjelmointi1/Class%20Materials/monimuoto/Merkkijono.pdf?csf=1&e=4Ks8NA">Merkkijonot.pdf</a>
             </td>
         </tr>
