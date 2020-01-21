@@ -29,13 +29,17 @@ Tulemme tekemään kurssilla yhteistyötä rinnakkaisten toteutusten kesken ja t
                 Kurssin järjestelyt ja osallistumisen vahvistaminen<br />
                 Eclipse-sovelluskehitin<br />
                 Perustietotyypit<br />
-                <a href="muistiinpanot/01_tietotyypit_ja_ehtolauseet.md">📝 Muistiinpanot</a>
+                <a href="muistiinpanot/01_tietotyypit.md">📝 Muistiinpanot</a><br />
+                <a href="src/viikko1/perusteet/th">📁 Esimerkkikoodit (TH)</a><br />
             </td>
         </tr>
         <tr>
             <td>Ke</td>
             <td>22.1.</td>
-            <td>Ehtolauseet</td>
+            <td>
+                Ehtolauseet<br />
+                <a href="muistiinpanot/02_ehtolauseet.md">📝 Muistiinpanot</a>
+            </td>
         </tr>
         <tr>
             <td>Ma</td>
