@@ -7,10 +7,6 @@ import java.util.Scanner;
  * ensimmäisestä vastauksesta riippuen häneltä joko kysytään toinen kysymys tai
  * tulostetaan vastaus suoraan. Toisen kysymyksen vastauksesta riippuen
  * suoritetaan jompi kumpi vaihtoehtoisista lohkoista.
- * 
- * DISCLAIMER: esimerkki on kirjoitettu suurempia suunnittelematta, ja
- * esimerkiksi kuukausilipun ja kertalippujen hintojen tulisi olla määritelty
- * muuttujissa, eikä kirjoitettu useisiin eri kohtiin ohjelmakoodissa.
  */
 public class JunalippujenHinta {
 
