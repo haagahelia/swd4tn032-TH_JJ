@@ -16,10 +16,10 @@ Laskutoimitukset liukuluvuilla ovat erittäin nopeita. Tietokoneet käsittelevä
 Kokeile suorittaa seuraava yhteenlasku. Minkä tuloksen saat?
 
 ```java
-System.out.println(0.1 + 0.2); 
+System.out.println(0.1 + 0.2); // tulostaa 0.30000000000000004
 ```
 
-Liukulukujen laskuvirhe ei niinkään liity Javaan, vaan yleisesti siihen, miten liukuluvut esitetään tietokoneen muistissa.
+Liukulukujen laskuvirhe ei niinkään liity Javaan, vaan yleisesti siihen, miten liukuluvut esitetään tietokoneen muistissa. Kaikkia lukuja ei vain ole mahdollista esittää rajatulla määrällä desimaaleja. Vastaavasti kymmenjärjestelmässä ei voida tarkasti esittää lukua `1/3`.
 
 # Boolean-arvot (totuusarvot)
 
