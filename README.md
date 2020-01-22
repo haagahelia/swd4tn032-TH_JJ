@@ -44,6 +44,7 @@ Tulemme tekemään kurssilla yhteistyötä rinnakkaisten toteutusten kesken ja t
             <td>
                 Ehtolauseet<br />
                 <a href="muistiinpanot/02_ehtolauseet.md">📝 Muistiinpanot</a><br />
+                <a href="src/viikko1/ehtorakenteet/th">📁 Esimerkkikoodit (TH)</a><br />
                 <br />
                 <em>Lisämateriaali (Teams / monimuoto):</em><br />
                 <a href="https://haagahelia.sharepoint.com/:b:/r/teams/Ohjelmointi1/Class%20Materials/monimuoto/Scanner.pdf?csf=1&e=FXnuFA">Scanner.pdf</a>,
