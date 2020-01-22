@@ -284,6 +284,54 @@ Aikaväli    | Tervehdys
 17:00-21:59 | Hyvää iltaa!
 22:00-6:59  | Hyvää yötä!
 
+## Sisäkkäiset ehtorakenteet
+
+```java
+/*
+ * Tässä esimerkissä demonstroidaan sisäkkäistä vaihtoehtorakennetta. Käyttäjän
+ * ensimmäisestä vastauksesta riippuen häneltä joko kysytään toinen kysymys tai
+ * tulostetaan vastaus suoraan. Toisen kysymyksen vastauksesta riippuen
+ * suoritetaan jompi kumpi vaihtoehtoisista lohkoista.
+ */
+public class JunalippujenHinta {
+
+    /*
+     * 1. Kysytään ostaako käyttäjä kuukausilipun vai kertalippuja
+     * 
+     * 2. Jos ostaa kuukausilipun, kerrotaan kuukausihinta
+     * 
+     * 3. Jos kertalippuja, kysytään kuinka monta, ja kerrotaan tulisiko
+     * kuukausilippu halvemmaksi
+     */
+    public static void main(String[] args) {
+        final int kertalipunHinta = 10;
+        final int kuukausilipunHinta = 100;
+
+        Scanner lukija = new Scanner(System.in);
+
+        System.out.println("Ostatko kuukausilipun (1) vai kertalippuja (2)?");
+        int vastaus = lukija.nextInt();
+
+        if (vastaus == 1) {
+            System.out.println("Kuukausilippu maksaa " + kuukausilipunHinta + " €");
+        } else {
+            System.out.println("Kuinka monta kertalippua käytät kuukaudessa?");
+            int kertalippuja = lukija.nextInt();
+            int kokonaishinta = kertalippuja * kertalipunHinta;
+
+            if (kokonaishinta > kuukausilipunHinta) {
+                System.out.println("Kuukausilippu olisi halvempi");
+            } else {
+                int saasto = kuukausilipunHinta - kokonaishinta;
+                System.out.println("Säästät " + saasto + " € verrattuna kuukausilippuun");
+            }
+        }
+
+        lukija.close();
+    }
+}
+```
+
 # Syventävää osaamista: switch/case -rakenne 💪
 ```java
 /** By Educative, Inc 
