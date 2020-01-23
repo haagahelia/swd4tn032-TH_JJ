@@ -397,6 +397,16 @@ Tehtävä on lainattu [Helsingin yliopiston Agile Education Research -tutkimusry
 
 ## Syötteen lukeminen näppäimistöltä
 
+Javassa on erilaisia tietovirtoja, kuten:
+
+Tietovirta  | Tarkoitus
+------------|------------------
+`System.in` | syötteiden lukeminen käyttäjältä (konsolista)
+`System.out`| tulostaminen konsoliin
+`System.err`| virheilmoitusten tulostaminen (punainen teksti)
+
+Tiedon lukemiseksi `System.in`-tietovirrasta kannattaa käyttää `Scanner`-luokkaa, joka tarjoaa käteviä metodeja eri tyyppisten syötteiden lukemiseksi.
+
 ### Scanner-luokka
 
 Kun Java-ohjelmia suoritetaan komentoriviltä, voidaan ohjelmalle antaa näppäimistöä käyttäen mm. tekstiä ja lukuja.
@@ -445,7 +455,7 @@ Annettu teksti otetaan talteen esimerkiksi sijoittamalla se `String`-tyyppiseen 
 ```java
 Scanner lukija = new Scanner(System.in);
 
-System.out.println("Kirjoita sana: ");
+System.out.println("Kirjoita sana:");
 String sana = lukija.next();
 
 System.out.println("Kirjoita kokonaisluku:");
