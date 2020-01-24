@@ -14,6 +14,9 @@
     * while
     * for
 
+* Koodin toistaminen tietyn määrän kertoja
+* Koodin toistaminen kunnes ehto toistuu
+* Olemassa olevien arvojen läpikäynti toistorakenteella (iterointi)
 
 ## Toistolauseet
 
@@ -113,7 +116,7 @@ https://2017-ohjelmointi.github.io/part6/#section-35-for-toistolause
 
 Molemmat oheisista esimerkeistä tulostavat ruudulle luvut 0, 1 ja 2. Ainoa ero on se, että oikeanpuoleisessa esimerkissä muuttuja i on olemassa myös toistolauseen jälkeen.
 
-## Toistolauseesta poistuminen eli `break`
+## Toistolauseesta poistuminen eli (`break`)
 
 Ikuinen toisto ei yleensä ole se mitä halutaan. Usein kuitenkin haluamme suorittaa koodia toistaiseksi kunnes käyttäjä esimerkiksi antaa tietyn syötteen. Tällöin voi olla hyödyllistä tehdä "ikuinen silmukka" eli:
 
@@ -147,6 +150,75 @@ while (true) {
 
 System.out.println("kiitos ja kuulemiin.");
 ```
+
+## Kuukauden sademäärien kysyminen toiston avulla
+
+TODO: Kirjoitetaan oppitunnilla ohjelma, joka kysyy päivittäisiä sademääriä ennalta tunnetun määrän yksi kerrallaan ja kerää lukumäärän, summan, minimin, maksimin sekä laskee keskiarvon.
+
+## Ennalta tuntemattoman ajanjakson sademäärien kysyminen
+
+TODO: Muutetaan ohjelmaa niin, että lukumäärä ei ole ennalta tunnettu, vaan tietty käyttäjän syöte lopettaa kysymisen.
+
+## ⭐️ Olemassa olevan sademäärädatan läpikäynti, eli iterointi ⭐️
+
+Edellä käsitellyissä esimerkeissä ohjelman "käyttöliittymä" on ollut oleellinen osa toistorakenteen toimintaa: olemme kysyneet syötteitä ja tehneet tulosteita toiston aikana. Tämä on lopulta melko harvinainen tapa oikeissa ohjelmissa, koska hyvin usein tieto saadaan jostain muualta kuin käyttäjän näppäimistöltä, ja usein on tarve käydä kaikki johonkin tiettyyn asiaan liittyvät tiedot kerralla.
+
+Tietojen läpikäynnistä käytetään termiä **iterointi**. Sademäärien historiatieto on tähän hyvä esimerkki, koska lähtökohtaisesti menneet sademäärät ovat jo ohjelman alussa käyttäjän tiedossa, eikä ohjelman toiminnan kannalta ole oleellista tai kiinnostavaa, kuinka monta sademäärätietoa ohjelma käsittelee. Käyttäjä voisi siis syöttää kaikki sademäärät kerralla tai tiedot voitaisiin lukea esim. tiedostosta.
+
+Tulemme myöhemmillä viikoilla käsittelemään tietorakenteita, kuten listat ja taulukot, joiden läpikäynti toistorakenteilla on erittäin yleistä. Näiden lisäksi on myös monia muita *iteroitavia* tietotyyppejä, joiden arvoja voidaan käydä läpi yksi kerrallaan. Ensimmäinen meille tuttu iteroitava tietotyyppi on `Scanner`.
+
+Scannerin avulla voimme kysyä sademäärät kerrallaan rajoittamattomalta määrältä päiviä, ja iteroida annetut arvot ilman vuorovaikutusta käyttäjän kanssa:
+
+```
+Syötä sademäärät millimetreinä yhdelle riville
+> 10,0  0,0  0,0  9,5  23,4  7,1  15,9
+
+Yhteensä: 65.9
+Päiviä: 7
+Maksimi: 23.4
+Minimi: 0.0
+Keskiarvo: 9.414285714285715
+```
+
+Edellä toteutettua ohjelmaa muutettuna siten, että käyttäjän ei tarvitse syöttää tietoja yksi kerrallaan, vaan ohjelma iteroi tunnettuja arvoja, joita voi olla mikä määrä tahansa:
+
+```java
+import java.util.Scanner;
+
+public class SademaaratIteroimalla {
+    public static void main(String[] args) {
+        Scanner lukija = new Scanner(System.in);
+
+        System.out.println("Syötä sademäärät millimetreinä yhdelle riville");
+        double eka = lukija.nextDouble();
+
+        double summa = eka;
+        double minimi = eka;
+        double maksimi = eka;
+        int paivia = 1;
+
+        // jatketaan syötettujen lukujen lukemista eli iteroidaan,
+        // kunnes luvut loppuvat:
+        while (lukija.hasNextDouble()) {
+            double maara = lukija.nextDouble();
+
+            summa += maara;
+            minimi = Math.min(minimi, maara);
+            maksimi = Math.max(maksimi, maara);
+            paivia++;
+        }
+
+        System.out.println();
+        System.out.println("Yhteensä: " + summa);
+        System.out.println("Päiviä: " + paivia);
+        System.out.println("Maksimi: " + maksimi);
+        System.out.println("Minimi: " + minimi);
+        System.out.println("Keskiarvo: " + summa / paivia);
+    }
+}
+```
+`SademaaratIteroimalla.java`
+
 
 ---
 
