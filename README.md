@@ -55,7 +55,8 @@ Tulemme tekemään kurssilla yhteistyötä rinnakkaisten toteutusten kesken ja t
             <td>Ma</td>
             <td>27.1.</td>
             <td>
-                Toistolauseet<br />
+                Toistorakenteet<br />
+                <a href="muistiinpanot/03_toistorakenteet.md">📝 Muistiinpanot</a><br />
                 <br />
                 <em>Lisämateriaali (Teams / monimuoto):</em><br />
                 <a href="https://haagahelia.sharepoint.com/:b:/r/teams/Ohjelmointi1/Class%20Materials/monimuoto/Toistorakenne.pdf?csf=1&e=fjNvg0">Toistorakenne.pdf</a>
