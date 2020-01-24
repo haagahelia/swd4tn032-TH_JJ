@@ -1,6 +1,14 @@
-# Toistokäskyt
+# Toistorakenteet
 
-## Vinkkejä Eclipsen käyttöön
+Ehtorakenteiden tavoin toistorakenteilla voidaan vaikuttaa koodin suorituksen etenemiseen. Toistorakenteiden avulla tietyt koodirivit voidaan toistaa eri logiikoilla tai tarvittaessa jopa "ikuisesti".
+
+Opettelemme tänään:
+
+* toistamaan koodia tietyn määrän kertoja
+* toistamaan koodia kunnes tietty ehto toteutuu
+* käymään läpi olemassa olevia arvoja toiston avulla (iterointi).
+
+## Extra: Vinkkejä Eclipsen käyttöön
 
 * `Ctrl + välilyönti` näyttää ehdotuksia esim. olemassa olevien muuttujien ja luokkien nimistä
 * `sysout (Ctrl + välilyönti)` täydentää `System.out.println();`
@@ -8,22 +16,7 @@
 * `Ctrl + 1` tarjoaa tapauskohtaisesti mahdollisuuksia mm. muuttujan nimen muuttamiseen, arvon sijoittamiseen muuttujaan yms.
 * `Ctrl + shift + f` muotoilee koko tiedoston tai maalattujen rivien sisennykset, rivityksen ja muut muotoilut
 
-## Tämän kerran aiheet
-
-* Toistokäskyt
-    * while
-    * for
-
-* Koodin toistaminen tietyn määrän kertoja
-* Koodin toistaminen kunnes ehto toistuu
-* Olemassa olevien arvojen läpikäynti toistorakenteella (iterointi)
-
-## Toistolauseet
-
-Ehtolauseiden tavoin toistolauseilla voidaan vaikuttaa koodin suorituksen etenemiseen.
-Toistolauseiden avulla tietyt koodirivit voidaan toistaa niin kauan kuin ehto toteutuu tai tarvittaessa "ikuisesti".
-
-### While-toistokäsky
+## While-toistokäsky
 
 While-lohkossa olevia käskyjä toistetaan, kunnes suluissa oleva ehto saa arvon false. 
 
@@ -35,6 +28,7 @@ while (ehto) {
 ```
 
 Vertailun vuoksi: `while` ja `if`
+
 ```java
 while (ehto) {
     // Toistetaan niin kauan
@@ -45,8 +39,6 @@ if (ehto) {
     // ehto on tosi
 }
 ```
-
-
 ### Esimerkki
 ```java
 public static void main(String[] args) {
@@ -90,7 +82,7 @@ for (int i = 0; i < 10; i++) {
 }
 ```
 
-### For- ja while-toistolauseet
+## For- ja while-toistolauseet
 
 Loogisesti samat toistorakenteet on mahdollista toteuttaa sekä while- että for-toistorakenteina. Rakenteeksi kannattaa valita niistä tapauskohtaisesti tarkoitukseen paremmin sopiva.
 
@@ -203,12 +195,13 @@ public class SademaaratIteroimalla {
             double maara = lukija.nextDouble();
 
             summa += maara;
-            minimi = Math.min(minimi, maara);
-            maksimi = Math.max(maksimi, maara);
+            minimi = Math.min(minimi, maara); // Math.max palauttaa annetuista arvoista suuremman
+            maksimi = Math.max(maksimi, maara); // Math.min palauttaa annetuista arvoista pienemmän
             paivia++;
         }
 
-        System.out.println();
+        System.out.println(); // tulostaa tyhjän rivin
+
         System.out.println("Yhteensä: " + summa);
         System.out.println("Päiviä: " + paivia);
         System.out.println("Maksimi: " + maksimi);
