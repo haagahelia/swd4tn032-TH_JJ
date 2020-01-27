@@ -4,24 +4,25 @@ import java.util.Scanner;
 
 public class SademaaratIteroimalla {
     public static void main(String[] args) {
-        Scanner lukija = new Scanner(System.in);
+        String sademaarat = "10 15 8 5 100";
+        Scanner lukija = new Scanner(sademaarat);
 
-        System.out.println("Syötä sademäärät millimetreinä yhdelle riville");
-        double eka = lukija.nextDouble();
+        System.out.println("Luetaan tilasto sademääristä (" + sademaarat + ")");
 
-        double summa = eka;
-        double minimi = eka;
-        double maksimi = eka;
+        // nextInt lukee tietovirtaa, kunnes löytää ekan kokonaisluvun
+        int sademaara = lukija.nextInt();
+
+        int summa = sademaara;
+        int minimi = sademaara;
+        int maksimi = sademaara;
         int paivia = 1;
 
-        // jatketaan syötettujen lukujen lukemista eli iteroidaan,
-        // kunnes luvut loppuvat:
-        while (lukija.hasNextDouble()) {
-            double maara = lukija.nextDouble();
-
-            summa += maara;
-            minimi = Math.min(minimi, maara);
-            maksimi = Math.max(maksimi, maara);
+        // hasNextInt() kertoo, onko tietovirrassa odottamassa int
+        while (lukija.hasNextInt()) {
+            int seuraava = lukija.nextInt();
+            summa += seuraava;
+            minimi = Math.min(minimi, seuraava);
+            maksimi = Math.max(maksimi, seuraava);
             paivia++;
         }
 
@@ -30,6 +31,8 @@ public class SademaaratIteroimalla {
         System.out.println("Päiviä: " + paivia);
         System.out.println("Maksimi: " + maksimi);
         System.out.println("Minimi: " + minimi);
-        System.out.println("Keskiarvo: " + summa / paivia);
+        System.out.println("Keskiarvo: " + (1.0 * summa / paivia));
+
+        lukija.close();
     }
 }
