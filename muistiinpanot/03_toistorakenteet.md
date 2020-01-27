@@ -103,8 +103,7 @@ while (i < 3) { // toistoehto
 }
 ```
 
-Tämä esimerkki on lainattu Helsingin Yliopiston ohjelmointikurssilta ja se on lisensoitu Creative Commons BY-NC-SA-lisenssillä. 
-https://2017-ohjelmointi.github.io/part6/#section-35-for-toistolause 
+Tämä esimerkki on lainattu Helsingin yliopiston Agile Education Research -tutkimusryhmän ohjelmointikurssilta ja se on lisensoitu Creative Commons BY-NC-SA-lisenssillä. https://2017-ohjelmointi.github.io/part6/#section-35-for-toistolause 
 
 Molemmat oheisista esimerkeistä tulostavat ruudulle luvut 0, 1 ja 2. Ainoa ero on se, että oikeanpuoleisessa esimerkissä muuttuja i on olemassa myös toistolauseen jälkeen.
 
