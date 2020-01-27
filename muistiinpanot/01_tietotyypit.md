@@ -519,6 +519,31 @@ String muotoiltu = kaksiDesimaalia.format(liukuluku);
 System.out.println(muotoiltu); // 123,46 <-- pyöristetty kahteen desimaaliin, erottimena pilkku
 ```
 
+# Kommentit
+
+Javassa on kolme eri kommenttityyliä:
+
+```java
+/**
+ * Luokan ja julkisten metodien "viralliset" dokumentaatiokommentit kirjoitetaan
+ * /** -alulla.
+ */
+public class Kommentit {
+
+    public static void main(String[] args) {
+        /*
+         * Koodinpätkille voidaan kirjoittaa monirivisiä kommentteja /* -merkkien
+         * avulla.
+         */
+        int luku = 1;
+
+        // Yksirivisille kommenteille laitetaan vain kaksi kauttaviivaa
+        System.out.println(luku);
+    }
+}
+```
+
+
 # Viope-harjoitukset
 
 Rekisteröitykää viimeistään nyt Viopeen ja liittykää kurssille. Harjoitukset lähtevät käyntiin heti, ensimmäisiä tehtäviä tehtiin jo tällä tunnilla.
