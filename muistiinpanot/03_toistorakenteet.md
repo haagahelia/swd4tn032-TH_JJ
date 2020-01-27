@@ -155,7 +155,7 @@ TODO: Muutetaan ohjelmaa niin, että lukumäärä ei ole ennalta tunnettu, vaan 
 
 Edellä käsitellyissä esimerkeissä ohjelman "käyttöliittymä" on ollut oleellinen osa toistorakenteen toimintaa: olemme kysyneet syötteitä ja tehneet tulosteita toiston aikana. Tämä on lopulta melko harvinainen tapa oikeissa ohjelmissa, koska hyvin usein tieto saadaan jostain muualta kuin käyttäjän näppäimistöltä, ja usein on tarve käydä kaikki johonkin tiettyyn asiaan liittyvät tiedot kerralla.
 
-Tietojen läpikäynnistä käytetään termiä **iterointi**. Sademäärien historiatieto on tähän hyvä esimerkki, koska lähtökohtaisesti menneet sademäärät ovat jo ohjelman alussa käyttäjän tiedossa, eikä ohjelman toiminnan kannalta ole oleellista tai kiinnostavaa, kuinka monta sademäärätietoa ohjelma käsittelee. Käyttäjä voisi siis syöttää kaikki sademäärät kerralla tai tiedot voitaisiin lukea esim. tiedostosta.
+Tietojen läpikäynnistä käytetään termiä **iterointi**. Sademäärien historiatieto on helposti iteroitavissa, koska lähtökohtaisesti menneet sademäärät ovat jo ohjelman alussa käyttäjän tiedossa, eikä ohjelman toiminnan kannalta ole oleellista tai kiinnostavaa, kuinka monta sademäärätietoa ohjelma käsittelee. Käyttäjä voisi siis syöttää kaikki sademäärät kerralla tai tiedot voitaisiin lukea esim. tiedostosta.
 
 Tulemme myöhemmillä viikoilla käsittelemään tietorakenteita, kuten listat ja taulukot, joiden läpikäynti toistorakenteilla on erittäin yleistä. Näiden lisäksi on myös monia muita *iteroitavia* tietotyyppejä, joiden arvoja voidaan käydä läpi yksi kerrallaan. Ensimmäinen meille tuttu iteroitava tietotyyppi on `Scanner`.
 
@@ -213,6 +213,29 @@ public class SademaaratIteroimalla {
 `SademaaratIteroimalla.java`
 
 
+## Extra: kommentit
+
+Javassa on kolme eri kommenttityyliä:
+
+```java
+/**
+ * Luokan ja julkisten metodien "viralliset" dokumentaatiokommentit kirjoitetaan
+ * /** -alulla.
+ */
+public class Kommentit {
+
+    public static void main(String[] args) {
+        /*
+         * Koodinpätkille voidaan kirjoittaa monirivisiä kommentteja /* -merkkien
+         * avulla.
+         */
+        int luku = 1;
+
+        // Yksirivisille kommenteille laitetaan vain kaksi kauttaviivaa
+        System.out.println(luku);
+    }
+}
+```
 ---
 
 Tämän oppimateriaalin on kehittänyt Teemu Havulinna ja se on lisensoitu [Creative Commons BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/) -lisenssillä. 
