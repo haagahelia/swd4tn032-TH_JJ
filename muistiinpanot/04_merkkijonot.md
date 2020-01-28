@@ -178,6 +178,15 @@ Toinen rivi
 Tekstiä "lainausmerkeissä".
 ```
 
+# Lukujen poimiminen merkkijonoista
+
+Scannerin avulla on kätevää lukea tekstistä erilaisia lukuja. Todellisuudessa kuitenkin suurin osa sovellusten käyttämästä datasta tulee jostain muualta kuin Scannerilta, joten tarvitaan myös muita tapoja lukea numeroita merkkijonoista. Tätä käsitellään tarkemmin oppitunnilla.
+
+```java
+int kokonaisluku = Integer.parseInt("123456");
+double liukuluku = Double.parseDouble("12.3456");
+```
+
 # MerkistÃ◦t (merkistöt)
 
 Eri kielialueilla on perinteisesti ollut tarve hyvin erilaisille kirjainmerkeille. Siksi niissä on kehitetty erilaisia merkistöjä, joissa tietyllä bittijonolla on eri keskenään eri merkitys. Sovellusohjelmat osaavat jonkin verran arvailla avattavien tiedostojen merkistöjä, mutta et voi luottaa tiedoston olevan tallennettu tiettyä merkistöä käyttäen.
