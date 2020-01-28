@@ -67,7 +67,7 @@ Tai vastaavasti muuttujan kautta:
 ```java
 String text = "  Hello world  ";
 text = text.trim();	// trim() poistaa tyhjät merkit alusta ja lopusta: "Hello world"
-```java
+```
 
 ### Muuttumattomuus (immutability)
 
