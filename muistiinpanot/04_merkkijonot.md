@@ -87,7 +87,8 @@ System.out.println(text);  // "HELLO"
 Merkkijonosta halutaan usein lukea jokin tietty osa. Tämä onnistuu metodilla `substring`. `substring`-metodia voidaan käyttää kahdella tavalla: 
 * yksiparametrisena palauttamaan merkkijonon loppuosa: `"abcd".substring(2)`
 * kaksiparametrisena palauttamaan parametrien määrittelemä osajono merkkijonosta: `"abcd".substring(1, 3)`
-* muista, että indeksit alkavat aina 0:sta!
+
+**Merkkijonojen indeksit alkavat aina nollasta!** Substring-metodin ensimmäinen parametri tarkoittaa ensimmäistä indeksiä joka otetaan mukaan osajoukkoon, kun taas toinen parametri on ensimmäinen osajoukon ulkopuolelle jäävä indeksi. Parametriarvoilla `(5, 10)` saadaan siis merkit indekseistä **5, 6, 7, 8 ja 9**.
 
 Koska substring-metodin paluuarvo on tyyppiä `String`, voidaan metodin paluuarvo ottaa talteen `String`-tyyppiseen muuttujaan.
 
@@ -190,8 +191,7 @@ By Chris55 - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?c
 ## Tietoisku: yksittäiset kirjaimet
 Javassa on erillinen `char`-tietotyyppi yksittäisiä merkkejä varten. Yksittäinen merkki aloitetaan ja lopetetaan heittomerkillä, esim. `'a'`. Yksittäiset merkit eivät ole olioita, eli niillä ei ole metodeja.
 
-Merkkijonolta voidaan pyytää yksittäisiä merkkejä niiden indeksin perusteella. Tämä onnistuu metodilla charAt(int indeksi), joka saa parametrina halutun merkin indeksin merkkijonossa
-Merkkijonojen indeksien laskeminen alkaa aina nollasta, eli esimerkiksi neljäs merkki on indeksissä kolme
+Merkkijonolta voidaan pyytää yksittäisiä merkkejä niiden indeksin perusteella. Tämä onnistuu metodilla `charAt(int indeksi)`, joka saa parametrina halutun merkin indeksin merkkijonossa. **Merkkijonojen indeksien laskeminen alkaa aina nollasta, eli esimerkiksi neljäs merkki on indeksissä kolme.**
 
 ```java
 char kirjain = 'a';
@@ -222,7 +222,9 @@ Eka merkki: K
 
 #### `"teksti".matches(String regex); // edistynyttä sisältöä`
 
-`matches`-metodi vertaa merkkijonoa annettuun säännölliseen lausekkeeseen ja palauttaa `true` tai `false` riippuen siitä, vastaako merkkijono lauseketta. Säännölliset lausekkeet (regular expression) ovat merkkijonoja, jotka muodostavat "kuvion" (pattern), jota vasten merkkijonoja verrataan:
+`matches`-metodi vertaa merkkijonoa annettuun säännölliseen lausekkeeseen ja palauttaa `true` tai `false` riippuen siitä, vastaako merkkijono lauseketta. Säännölliset lausekkeet (regular expression) ovat merkkijonoja, jotka muodostavat "kuvion" (pattern), jota vasten merkkijonoja verrataan.
+
+Valikoituja esimerkkejä selityksineen:
 
 Regex                   | Esimerkki   | Selitys
 ------------------------| ------------| --------
@@ -253,11 +255,12 @@ if (numero.matches("a[0-9]{7}")) {
 
 #### Regex-sääntöjä
 
-Katso: https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html
+Tutustu regex-sääntöihin osoitteessa: https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html
 
-Huom! Merkkijonoissa kenoviiva `\` on erikoismerkki, joten numerokuvion `\d` eteen tulee laittaa kontrollimerkiksi toinen kenoviiva: 
+Huom! Kuten [ylempänä on esitetty](#yleiset-erikoismerkit-merkkijonoissa), merkkijonoissa kenoviiva `\` on erikoismerkki, jota ei voida käyttää sellaisenaan. Kenoviiva tulee esittää aina kahtena kenoviivana `\\`. Regex-säännön `\d` eteen tulee siis Javassa laittaa "ylimääräinen" kenoviiva: 
+
 ```java
-"1234".matches("\\d+");
+boolean match = "1234".matches("\\d+");
 ```
 
 ---
