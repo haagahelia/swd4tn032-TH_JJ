@@ -265,4 +265,10 @@ boolean match = "1234".matches("\\d+");
 
 ---
 
+[![Perl Problems](https://imgs.xkcd.com/comics/perl_problems.png)](https://xkcd.com/1171/)
+
+https://xkcd.com/1171/ This work is licensed under a Creative Commons Attribution-NonCommercial 2.5 License
+
+---
+
 Tämän oppimateriaalin on kehittänyt Teemu Havulinna ja se on lisensoitu [Creative Commons BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/) -lisenssillä. 
