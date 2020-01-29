@@ -4,10 +4,9 @@ import java.util.Scanner;
 
 public class SademaaratIteroimalla {
     public static void main(String[] args) {
-        String sademaarat = "10 15 8 5 100";
-        Scanner lukija = new Scanner(sademaarat);
+        Scanner lukija = new Scanner(System.in);
 
-        System.out.println("Luetaan tilasto sademääristä (" + sademaarat + ")");
+        System.out.println("Anna sademäärät yhdelle riville: ");
 
         // nextInt lukee tietovirtaa, kunnes löytää ekan kokonaisluvun
         int sademaara = lukija.nextInt();
