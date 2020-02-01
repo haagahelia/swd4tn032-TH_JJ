@@ -81,7 +81,9 @@ Tulemme tekemään kurssilla yhteistyötä rinnakkaisten toteutusten kesken ja t
             <td>
                 Listat<br />
                 <a href="muistiinpanot/05_listat.md">📝 Muistiinpanot</a><br />
-                <a href="https://ohjelmointi-19.mooc.fi/osa-3/2-listat" target="_blank">Ohjelmoinnin MOOC: Listamuuttujan käyttö useamman arvon tallentamiseen</a><br />
+                <br />
+                <em>Lisämateriaali (Ohjelmoinnin MOOC):</em><br />
+                <a href="https://ohjelmointi-19.mooc.fi/osa-3/2-listat" target="_blank">Listamuuttujan käyttö useamman arvon tallentamiseen</a><br />
             </td>
         </tr>
         <tr>
