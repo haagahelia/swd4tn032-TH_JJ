@@ -78,7 +78,10 @@ Tulemme tekemään kurssilla yhteistyötä rinnakkaisten toteutusten kesken ja t
         <tr>
             <td>Ma</td>
             <td>3.2.</td>
-            <td>Listat</td>
+            <td>
+                Listat<br />
+                <a href="https://ohjelmointi-19.mooc.fi/osa-3/2-listat" target="_blank">Ohjelmoinnin MOOC: Listamuuttujan käyttö useamman arvon tallentamiseen</a><br />
+            </td>
         </tr>
         <tr>
             <td>Ke</td>
