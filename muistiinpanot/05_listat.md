@@ -199,18 +199,48 @@ true
 
 
 ```java
-for (int i = 0; i < sanat.size(); i++) {
-    System.out.println(sanat.get(i));
+import java.util.ArrayList;
+import java.util.List;
+
+public class ListanLapikayntiFor {
+
+    public static void main(String[] args) {
+        List<Integer> numerot = new ArrayList<>();
+        numerot.add(321);
+        numerot.add(456);
+        numerot.add(789);
+
+        // käydään kaikki listan arvot läpi:
+        for (int i = 0; i < numerot.size(); i++) {
+            System.out.println(numerot.get(i));
+        }
+    }
 }
 ```
 
 ### Listan iterointi (for-each)
 
+Katso: https://stackoverflow.com/a/22114571
+
 For-each –silmukalla on mahdollista käydä kätevästi kaikki tietyn listan arvot läpi ilman, että pidämme itse kirjaa indeksistä ja haemme arvoja `get`-metodilla:
 
 ```java
-for (String sana : sanat) {
-    System.out.println(sana);
+import java.util.ArrayList;
+import java.util.List;
+
+public class ListanLapikayntiForEach {
+
+    public static void main(String[] args) {
+        List<Integer> numerot = new ArrayList<>();
+        numerot.add(321);
+        numerot.add(456);
+        numerot.add(789);
+
+        // käydään kaikki listan arvot läpi:
+        for (Integer arvo : numerot) {
+            System.out.println(arvo);
+        }
+    }
 }
 ```
 
@@ -219,15 +249,29 @@ for (String sana : sanat) {
 Lista on mahdollista järjestää helposti alkioiden "luonnolliseen järjestykseen". `Collections`-apuluokalla on olemassa `sort`-niminen metodi, joka järjestää sille annetun listan:
 
 ```java
-ArrayList<String> sanat = new ArrayList<>();
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
-sanat.add("Yksi");
-sanat.add("Kaksi");
-sanat.add("Kolme");
+public class KaupunkienSorttaus {
 
-Collections.sort(sanat);
+    public static void main(String[] args) {
+        List<String> kaupungit = new ArrayList<>();
+        kaupungit.add("Rauma");
+        kaupungit.add("Helsinki");
+        kaupungit.add("Espoo");
+        kaupungit.add("Vantaa");
+        kaupungit.add("Turku");
 
-System.out.println(sanat); // [Kaksi, Kolme, Yksi]
+        // Tulostaa siinä järjestyksessä, kun lisäsimme arvot:
+        System.out.println(kaupungit); // [Rauma, Helsinki, Espoo, Vantaa, Turku]
+
+        Collections.sort(kaupungit); // järjestää "luonnolliseen" järjestykseen
+
+        // Lista on nyt eri järjestyksessä:
+        System.out.println(kaupungit); // [Espoo, Helsinki, Rauma, Turku, Vantaa]
+    }
+}
 ```
 
 **Merkkijonojen luonnollinen järjestys ei toimi odotetusti eri kokoisia kirjaimia vertaillessa.**
