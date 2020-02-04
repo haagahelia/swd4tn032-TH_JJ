@@ -26,9 +26,9 @@ Tulemme tekemään kurssilla yhteistyötä rinnakkaisten toteutusten kesken ja t
             <td>Ma</td>
             <td>20.1.</td>
             <td>
-                Kurssin järjestelyt ja osallistumisen vahvistaminen<br />
+                <strong>Kurssin järjestelyt ja osallistumisen vahvistaminen<br />
                 Eclipse-sovelluskehitin<br />
-                Perustietotyypit<br />
+                Perustietotyypit</strong><br />
                 <a href="muistiinpanot/01_tietotyypit.md">📝 Muistiinpanot</a><br />
                 <a href="src/viikko1/perusteet/th">📁 Esimerkkikoodit (TH)</a><br />
                 <br />
@@ -42,7 +42,7 @@ Tulemme tekemään kurssilla yhteistyötä rinnakkaisten toteutusten kesken ja t
             <td>Ke</td>
             <td>22.1.</td>
             <td>
-                Ehtolauseet<br />
+                <strong>Ehtolauseet</strong><br />
                 <a href="muistiinpanot/02_ehtolauseet.md">📝 Muistiinpanot</a><br />
                 <a href="src/viikko1/ehtorakenteet/th">📁 Esimerkkikoodit (TH)</a><br />
                 <br />
@@ -55,7 +55,7 @@ Tulemme tekemään kurssilla yhteistyötä rinnakkaisten toteutusten kesken ja t
             <td>Ma</td>
             <td>27.1.</td>
             <td>
-                Toistorakenteet<br />
+                <strong>Toistorakenteet</strong><br />
                 <a href="muistiinpanot/03_toistorakenteet.md">📝 Muistiinpanot</a><br />
                 <a href="src/viikko2/toisto/th">📁 Esimerkkikoodit (TH)</a><br />
                 <br />
@@ -67,7 +67,7 @@ Tulemme tekemään kurssilla yhteistyötä rinnakkaisten toteutusten kesken ja t
             <td>Ke</td>
             <td>29.1.</td>
             <td>
-                Merkkijonot<br />
+                <strong>Merkkijonot</strong><br />
                 <a href="muistiinpanot/04_merkkijonot.md">📝 Muistiinpanot</a><br />
                 <a href="src/viikko2/merkkijonot/th">📁 Esimerkkikoodit (TH)</a><br />
                 <br />
@@ -79,7 +79,7 @@ Tulemme tekemään kurssilla yhteistyötä rinnakkaisten toteutusten kesken ja t
             <td>Ma</td>
             <td>3.2.</td>
             <td>
-                Listat<br />
+                <strong>Listat</strong><br />
                 <a href="muistiinpanot/05_listat.md">📝 Muistiinpanot</a><br />
                 <a href="src/viikko3/listat/th">📁 Esimerkkikoodit (TH)</a><br />
                 <br />
@@ -90,22 +90,29 @@ Tulemme tekemään kurssilla yhteistyötä rinnakkaisten toteutusten kesken ja t
         <tr>
             <td>Ke</td>
             <td>5.2.</td>
-            <td>Taulukot</td>
+            <td>
+                <strong>Taulukot</strong><br />
+                <a href="muistiinpanot/06_taulukot.md">📝 Muistiinpanot</a><br />
+                <a href="src/viikko3/taulukot/th">📁 Esimerkkikoodit (TH)</a><br />
+                <br />
+                <em>Lisämateriaali (Teams / monimuoto):</em><br />
+                <a href="https://haagahelia.sharepoint.com/:b:/r/teams/Ohjelmointi1/Class%20Materials/monimuoto/Taulukko.pdf?csf=1&e=A6STcK">Taulukot.pdf</a>
+            </td>
         </tr>
         <tr>
             <td>Ma</td>
             <td>10.2.</td>
             <td>
-                Staattiset luokkametodit, parametrit ja paluuarvot
+                <strong>Staattiset luokkametodit, parametrit ja paluuarvot</strong>
             </td>
         </tr>
         <tr>
             <td>Ke</td>
             <td>12.2.</td>
             <td>
-                Päivämäärät<br />
+                <strong>Päivämäärät<br />
                 Ohjelman paketointi ja suorittaminen Eclipsen ulkopuolella<br />
-                Komentoriviparametrit
+                Komentoriviparametrit</strong>
             </td>
         </tr>
         <tr>
