@@ -55,18 +55,23 @@ Tämä esimerkki on lainattu Helsingin yliopiston Agile Education Research –tu
 
 Jos taulukkoon asetettavat alkuarvot ovat jo valmiiksi tiedossa, taulukko voidaan alustaa myös aaltosulkeiden avulla tietyille arvoille.
 
-Tällöin taulukon pituutta ei ilmoiteta hakasuluissa, vaan pituus määräytyy alkuarvojen määrän mukaan, esim: `int[] luvut2 = new int[] { 2, 7, 5, 6 };`.
-
+Tällöin taulukon pituutta ei ilmoiteta hakasuluissa, vaan pituus määräytyy alkuarvojen määrän mukaan, esim: `int[] arvot = new int[] { 2, 7, 5, 6 };`. Java osaa myös päätellä tässä tapauksessa taulukon tyypin, joten voimme kirjoittaa lyhyesti `int[] arvot = { 2, 7, 5, 6 };`.
 
 ```java
 // alustaminen valmiilla arvoilla:
-int[] luvut2 = new int[] { 2, 7, 5, 6 };
+int[] numerot1 = new int[] { 2, 7, 5, 6 };
+
+// alustaminen valmiilla arvoilla (Java päättelee tyypin):
+int[] numerot2 = { 2, 7, 5, 6 };
 
 // vastaavasti merkkijonoilla:
-String[] tallit = new String[] { "Ferrari", "McLaren", "Sauber" };
+String[] merkkijonot1 = new String[] { "Ferrari", "McLaren", "Sauber" };
+
+// Java päättelee tyypin:
+String[] merkkijonot2 = { "Ferrari", "McLaren", "Sauber" };
 
 // alustaminen yksi alkio kerrallaan:
-int[] luvut1 = new int[4];
+int[] numerot3 = new int[4];
 luvut1[0] = 2;
 luvut1[1] = 7;
 luvut1[2] = 5;
@@ -194,6 +199,10 @@ String tekstina = Arrays.toString(kirjaimet);
 
 System.out.println(tekstina); // tulostaa [a, a, j, v]
 ```
+
+## Viittaustyyppiset muuttujat käytännössä
+
+Käsitellään oppitunnilla.
 
 ## Syventävää tietoa: Taulukon kopioiminen
 
