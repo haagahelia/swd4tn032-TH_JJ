@@ -70,6 +70,7 @@ Tulemme tekemään kurssilla yhteistyötä rinnakkaisten toteutusten kesken ja t
                 <strong>Merkkijonot</strong><br />
                 <a href="muistiinpanot/04_merkkijonot.md">📝 Muistiinpanot</a><br />
                 <a href="src/viikko2/merkkijonot/th">📁 Esimerkkikoodit (TH)</a><br />
+                <a href="https://haagahelia.sharepoint.com/:b:/r/teams/Ohjelmointi1/Class%20Materials/p%C3%A4iv%C3%A4/SaannollisetLausekkeet.pdf?csf=1&e=gsh7b0">Säännölliset lausekkeet (regex)</a><br />
                 <br />
                 <em>Lisämateriaali (Teams / monimuoto):</em><br />
                 <a href="https://haagahelia.sharepoint.com/:b:/r/teams/Ohjelmointi1/Class%20Materials/monimuoto/Merkkijono.pdf?csf=1&e=4Ks8NA">Merkkijonot.pdf</a>
