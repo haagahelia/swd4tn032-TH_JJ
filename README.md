@@ -95,6 +95,7 @@ Tulemme tekemään kurssilla yhteistyötä rinnakkaisten toteutusten kesken ja t
                 <strong>Taulukot</strong><br />
                 <a href="muistiinpanot/06_taulukot.md">📝 Muistiinpanot</a><br />
                 <a href="src/viikko3/taulukot/th">📁 Esimerkkikoodit (TH)</a><br />
+                <a href="https://cscircles.cemc.uwaterloo.ca/java_visualize/">Java Visualizer -työkalu</a><br />
                 <br />
                 <em>Lisämateriaali (Teams / monimuoto):</em><br />
                 <a href="https://haagahelia.sharepoint.com/:b:/r/teams/Ohjelmointi1/Class%20Materials/monimuoto/Taulukko.pdf?csf=1&e=A6STcK">Taulukot.pdf</a>
