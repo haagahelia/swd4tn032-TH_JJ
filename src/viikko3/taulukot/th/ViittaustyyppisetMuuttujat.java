@@ -14,15 +14,16 @@ public class ViittaustyyppisetMuuttujat {
         String toinenNimi = nimet[1]; // "Ludvig"
         String sukunimi = nimet[2]; // "Runeberg"
 
-        String[] lyhennetty = Arrays.copyOf(nimet, nimet.length);
+        // EI KOPIOI TAULUKKOA, VAAN VIITTAA SAMAAN TAULUKKOON:
+        String[] lyhennetty = nimet;
 
         lyhennetty[0] = etunimi.substring(0, 1); // "J"
         lyhennetty[1] = toinenNimi.substring(0, 1); // "L"
 
-        // Lyhennetty taulukko
+        // Lyhennetty taulukko sisältää muuttuneet merkkijonot
         System.out.println(Arrays.toString(lyhennetty));
 
-        // Alkuperäinen taulukko
+        // Myös alkuperäisen muuttujan kautta sisältö on muuttunut
         System.out.println(Arrays.toString(nimet));
     }
 }
