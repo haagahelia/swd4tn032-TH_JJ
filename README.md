@@ -105,7 +105,12 @@ Tulemme tekemään kurssilla yhteistyötä rinnakkaisten toteutusten kesken ja t
             <td>Ma</td>
             <td>10.2.</td>
             <td>
-                <strong>Staattiset luokkametodit, parametrit ja paluuarvot</strong>
+                <strong>Staattiset luokkametodit, parametrit ja paluuarvot</strong><br />
+                <a href="muistiinpanot/07_metodit.md">📝 Muistiinpanot</a><br />
+                <a href="src/viikko4/metodit/th">📁 Esimerkkikoodit (TH)</a><br />
+                <br />
+                <em>Lisämateriaali (Teams / monimuoto):</em><br />
+                <a href="https://haagahelia.sharepoint.com/:b:/r/teams/Ohjelmointi1/Class%20Materials/monimuoto/Metodi.pdf?csf=1&e=7lcn38">Metodit.pdf</a>
             </td>
         </tr>
         <tr>
@@ -201,6 +206,10 @@ Tulemme tekemään kurssilla yhteistyötä rinnakkaisten toteutusten kesken ja t
 Tunneilla opetellaan ohjelmoinnin perusteita sekä hyviä ohjelmointikäytäntöjä ja käydään läpi esimerkkejä. Lisäksi opiskelijat ohjelmoivat tuntitehtäviä ja saavat niihin ohjausta. Kurssin suorittamiseksi sinun tulee palauttaa hyväksytysti automaattisesti arvioitavia harjoitustehtäviä Viope-järjestelmään sekä suorittaa kurssin lopuksi järjestettävä laitekoe.
 
 ## Kehitys ohjelmistokehittäjänä
+
+> "The biggest mistake I see new programmers make is focusing on learning syntax instead of learning how to solve problems."
+>
+> [V. Anton Spraul](https://medium.freecodecamp.org/how-to-think-like-a-programmer-lessons-in-problem-solving-d1d8bf1de7d2)
 
 **1. Think like a computer**
   * Opimme ymmärtämään "miten tietokone" toimii ja mitkä ovat Javan peruspilarit
