@@ -117,9 +117,14 @@ Tulemme tekemään kurssilla yhteistyötä rinnakkaisten toteutusten kesken ja t
             <td>Ke</td>
             <td>12.2.</td>
             <td>
-                <strong>Päivämäärät<br />
+                <strong>Ajan käsitteleminen Javassa<br />
                 Ohjelman paketointi ja suorittaminen Eclipsen ulkopuolella<br />
-                Komentoriviparametrit</strong>
+                Komentoriviparametrit</strong><br />
+                <a href="muistiinpanot/08_ajan_kasittely.md">📝 Muistiinpanot</a><br />
+                <a href="src/viikko4/aika/th">📁 Esimerkkikoodit (TH)</a><br />
+                <br />
+                <em>Lisämateriaali (Teams / monimuoto):</em><br />
+                <a href="https://haagahelia.sharepoint.com/:b:/r/teams/Ohjelmointi1/Class%20Materials/monimuoto/Paivamaara.pdf?csf=1&e=91YVcq">Paivamaara.pdf</a>
             </td>
         </tr>
         <tr>
