@@ -8,6 +8,7 @@ public class Numerot {
         int summa = 0;
         for (int luku : arvot) {
             summa += luku; // sama kuin: summa = summa + luku;
+            System.out.println(luku);
         }
         return summa; // palauttaa numeron metodin kutsujalle
     }
