@@ -29,7 +29,7 @@ Tulemme tekemään kurssilla yhteistyötä rinnakkaisten toteutusten kesken ja t
                 <strong>Kurssin järjestelyt ja osallistumisen vahvistaminen<br />
                 Eclipse-sovelluskehitin<br />
                 Perustietotyypit</strong><br />
-                <a href="muistiinpanot/01_tietotyypit.md">📝 Muistiinpanot</a><br />
+                <a href="https://github.com/haagahelia/swd4tn032-TH_JJ/wiki/Ohjelmoinnin-aloitus">📝 Muistiinpanot</a><br />
                 <a href="src/viikko1/perusteet/th">📁 Esimerkkikoodit (TH)</a><br />
                 <br />
                 <em>Lisämateriaali (Teams / monimuoto):</em><br />
@@ -43,7 +43,7 @@ Tulemme tekemään kurssilla yhteistyötä rinnakkaisten toteutusten kesken ja t
             <td>22.1.</td>
             <td>
                 <strong>Ehtolauseet</strong><br />
-                <a href="muistiinpanot/02_ehtolauseet.md">📝 Muistiinpanot</a><br />
+                <a href="https://github.com/haagahelia/swd4tn032-TH_JJ/wiki/Totuusarvot-ja-ehtolauseet">📝 Muistiinpanot</a><br />
                 <a href="src/viikko1/ehtorakenteet/th">📁 Esimerkkikoodit (TH)</a><br />
                 <br />
                 <em>Lisämateriaali (Teams / monimuoto):</em><br />
@@ -56,7 +56,7 @@ Tulemme tekemään kurssilla yhteistyötä rinnakkaisten toteutusten kesken ja t
             <td>27.1.</td>
             <td>
                 <strong>Toistorakenteet</strong><br />
-                <a href="muistiinpanot/03_toistorakenteet.md">📝 Muistiinpanot</a><br />
+                <a href="https://github.com/haagahelia/swd4tn032-TH_JJ/wiki/Toistorakenteet">📝 Muistiinpanot</a><br />
                 <a href="src/viikko2/toisto/th">📁 Esimerkkikoodit (TH)</a><br />
                 <br />
                 <em>Lisämateriaali (Teams / monimuoto):</em><br />
@@ -68,7 +68,7 @@ Tulemme tekemään kurssilla yhteistyötä rinnakkaisten toteutusten kesken ja t
             <td>29.1.</td>
             <td>
                 <strong>Merkkijonot</strong><br />
-                <a href="muistiinpanot/04_merkkijonot.md">📝 Muistiinpanot</a><br />
+                <a href="https://github.com/haagahelia/swd4tn032-TH_JJ/wiki/Muuttujien-roolit-ja-merkkijonot">📝 Muistiinpanot</a><br />
                 <a href="src/viikko2/merkkijonot/th">📁 Esimerkkikoodit (TH)</a><br />
                 <a href="https://haagahelia.sharepoint.com/:b:/r/teams/Ohjelmointi1/Class%20Materials/p%C3%A4iv%C3%A4/SaannollisetLausekkeet.pdf?csf=1&e=gsh7b0">Säännölliset lausekkeet (regex)</a><br />
                 <br />
@@ -81,7 +81,7 @@ Tulemme tekemään kurssilla yhteistyötä rinnakkaisten toteutusten kesken ja t
             <td>3.2.</td>
             <td>
                 <strong>Listat</strong><br />
-                <a href="muistiinpanot/05_listat.md">📝 Muistiinpanot</a><br />
+                <a href="https://github.com/haagahelia/swd4tn032-TH_JJ/wiki/Listat">📝 Muistiinpanot</a><br />
                 <a href="src/viikko3/listat/th">📁 Esimerkkikoodit (TH)</a><br />
                 <br />
                 <em>Lisämateriaali (Ohjelmoinnin MOOC):</em><br />
@@ -93,7 +93,7 @@ Tulemme tekemään kurssilla yhteistyötä rinnakkaisten toteutusten kesken ja t
             <td>5.2.</td>
             <td>
                 <strong>Taulukot</strong><br />
-                <a href="muistiinpanot/06_taulukot.md">📝 Muistiinpanot</a><br />
+                <a href="https://github.com/haagahelia/swd4tn032-TH_JJ/wiki/Taulukot-(arrays)">📝 Muistiinpanot</a><br />
                 <a href="src/viikko3/taulukot/th">📁 Esimerkkikoodit (TH)</a><br />
                 <a href="https://cscircles.cemc.uwaterloo.ca/java_visualize/">Java Visualizer -työkalu</a><br />
                 <br />
@@ -106,7 +106,7 @@ Tulemme tekemään kurssilla yhteistyötä rinnakkaisten toteutusten kesken ja t
             <td>10.2.</td>
             <td>
                 <strong>Staattiset luokkametodit, parametrit ja paluuarvot</strong><br />
-                <a href="muistiinpanot/07_metodit.md">📝 Muistiinpanot</a><br />
+                <a href="https://github.com/haagahelia/swd4tn032-TH_JJ/wiki/Metodit">📝 Muistiinpanot</a><br />
                 <a href="src/viikko4/metodit/th">📁 Esimerkkikoodit (TH)</a><br />
                 <br />
                 <em>Lisämateriaali (Teams / monimuoto):</em><br />
@@ -120,7 +120,7 @@ Tulemme tekemään kurssilla yhteistyötä rinnakkaisten toteutusten kesken ja t
                 <strong>Ajan käsitteleminen Javassa<br />
                 Ohjelman paketointi ja suorittaminen Eclipsen ulkopuolella<br />
                 Komentoriviparametrit</strong><br />
-                <a href="muistiinpanot/08_ajan_kasittely.md">📝 Muistiinpanot</a><br />
+                <a href="https://github.com/haagahelia/swd4tn032-TH_JJ/wiki/Ajan-k%C3%A4sittely-Javassa">📝 Muistiinpanot</a><br />
                 <a href="src/viikko4/aika/th">📁 Esimerkkikoodit (TH)</a><br />
                 <a href="https://docs.oracle.com/javase/8/docs/api/java/time/LocalDate.html">Java API: LocalDate</a><br />
                 <br />
