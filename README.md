@@ -122,6 +122,7 @@ Tulemme tekemään kurssilla yhteistyötä rinnakkaisten toteutusten kesken ja t
                 Komentoriviparametrit</strong><br />
                 <a href="muistiinpanot/08_ajan_kasittely.md">📝 Muistiinpanot</a><br />
                 <a href="src/viikko4/aika/th">📁 Esimerkkikoodit (TH)</a><br />
+                <a href="https://docs.oracle.com/javase/8/docs/api/java/time/LocalDate.html">Java API: LocalDate</a><br />
                 <br />
                 <em>Lisämateriaali (Teams / monimuoto):</em><br />
                 <a href="https://haagahelia.sharepoint.com/:b:/r/teams/Ohjelmointi1/Class%20Materials/monimuoto/Paivamaara.pdf?csf=1&e=91YVcq">Paivamaara.pdf</a>
