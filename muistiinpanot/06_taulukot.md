@@ -282,3 +282,8 @@ Ote hyödyllisistä apumetodeista taulukoiden käyttöön:
 > Sorts the specified array into ascending order.
 
 Lähde: https://docs.oracle.com/javase/8/docs/api/java/util/Arrays.html
+
+
+---
+
+Tämän oppimateriaalin on kehittänyt Teemu Havulinna ja se on lisensoitu [Creative Commons BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/) -lisenssillä. 

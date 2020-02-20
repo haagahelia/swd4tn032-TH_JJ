@@ -143,3 +143,7 @@ Tarvitset ainakin nämä:
 * LocalDate
 * DateTimeFormatter, (d.M.yyyy)
 * Period
+
+---
+
+Tämän oppimateriaalin on kehittänyt Teemu Havulinna ja se on lisensoitu [Creative Commons BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/) -lisenssillä. 
