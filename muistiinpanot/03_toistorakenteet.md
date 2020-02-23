@@ -1,3 +1,5 @@
+Tämä sivu on siirretty Wikiin: https://github.com/haagahelia/swd4tn032-TH_JJ/wiki
+
 # Toistorakenteet
 
 Ehtorakenteiden tavoin toistorakenteilla voidaan vaikuttaa koodin suorituksen etenemiseen. Toistorakenteiden avulla tietyt koodirivit voidaan toistaa eri logiikoilla tai tarvittaessa jopa "ikuisesti".

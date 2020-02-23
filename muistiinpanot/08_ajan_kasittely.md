@@ -1,3 +1,5 @@
+Tämä sivu on siirretty Wikiin: https://github.com/haagahelia/swd4tn032-TH_JJ/wiki
+
 #  Ajan käsittely Javassa
 
 * Nykyaikainen Javan standardikirjasto (Java 8+) käsittelee aikaa luotettavasti ja selkeästi

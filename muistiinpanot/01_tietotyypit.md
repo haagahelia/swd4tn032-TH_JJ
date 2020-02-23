@@ -1,3 +1,5 @@
+Tämä sivu on siirretty Wikiin: https://github.com/haagahelia/swd4tn032-TH_JJ/wiki
+
 # Ohjelman suorittaminen, muuttujat, syötteen lukeminen ja ehtolauseet
 
 Kurssin aloitus:

@@ -1,3 +1,5 @@
+Tämä sivu on siirretty Wikiin: https://github.com/haagahelia/swd4tn032-TH_JJ/wiki
+
 # Kertaus + alkulukutehtävä + muuttujien roolit/luonteet
 
 "Think like a programmer" vs. "Think like a computer"

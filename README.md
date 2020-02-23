@@ -148,7 +148,7 @@ Tulemme tekemään kurssilla yhteistyötä rinnakkaisten toteutusten kesken ja t
                 Oliometodit ja -muuttujat<br />
                 </strong>
                 <br />
-                <a href="https://github.com/haagahelia/swd4tn032-TH_JJ/wiki/Olio-ohjelmointi">📝 Muistiinpanot</a><br />
+                <a href="https://github.com/haagahelia/swd4tn032-TH_JJ/wiki/Oliot">📝 Muistiinpanot</a><br />
                 <a href="src/viikko4/oliot/th">📁 Esimerkkikoodit (TH)</a><br />
                 <br />
                 <em>Lisämateriaali (Teams / monimuoto):</em><br />

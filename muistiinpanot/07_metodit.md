@@ -1,5 +1,7 @@
 Nämä muistiinpanot perustuvat Helsingin yliopiston Agile Education Research -tutkimusryhmän [MOOC-ohjelmointikurssin materiaaliin](https://materiaalit.github.io/ohjelmointi-18/part2/). Lisenssi: Creative Commons BY-NC-SA.
 
+Tämä sivu on siirretty Wikiin: https://github.com/haagahelia/swd4tn032-TH_JJ/wiki
+
 --- 
 
 # Metodit

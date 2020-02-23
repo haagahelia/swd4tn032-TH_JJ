@@ -1,3 +1,5 @@
+Tämä sivu on siirretty Wikiin: https://github.com/haagahelia/swd4tn032-TH_JJ/wiki
+
 # Taulukot (array)
 
 Taulukot ovat varsin alkeellisia tietorakenteita, joihin voidaan varastoida useita saman typpisiä arvoja. Toisin kuin listojen, taulukon pituus on kiinteä, eli sitä ei voi lyhentää eikä kasvattaa. Samaan muuttujaan voidaan toki sijoittaa uusi, eri pituinen taulukko.
