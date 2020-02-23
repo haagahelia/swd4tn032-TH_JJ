@@ -142,10 +142,17 @@ Tulemme tekemään kurssilla yhteistyötä rinnakkaisten toteutusten kesken ja t
             <td>Ma</td>
             <td>24.2.</td>
             <td>
+                <strong>
                 Olio-ohjelmoinnin alkeet<br />
                 Käsitteet luokka ja olio<br />
                 Oliometodit ja -muuttujat<br />
-                Olioiden luominen ja hyödyntäminen
+                </strong>
+                <br />
+                <a href="https://github.com/haagahelia/swd4tn032-TH_JJ/wiki/Olio-ohjelmointi">📝 Muistiinpanot</a><br />
+                <a href="src/viikko4/oliot/th">📁 Esimerkkikoodit (TH)</a><br />
+                <br />
+                <em>Lisämateriaali (Teams / monimuoto):</em><br />
+                <a href="https://haagahelia.sharepoint.com/teams/Ohjelmointi1/Class%20Materials/monimuoto/Luokka.pdf">Luokka.pdf</a>
             </td>
         </tr>
         <tr>
@@ -155,15 +162,19 @@ Tulemme tekemään kurssilla yhteistyötä rinnakkaisten toteutusten kesken ja t
                 Olio-ohjelmointi jatkuu:<br/>
                 Luokkien yhteyssuhteet<br/>
                 Olioita listoilla ja listoja olioissa<br/>
-                `equals`-metodi
+                `equals`-metodi<br/> 
+                <br />
+                <em>Lisämateriaali (Teams / monimuoto):</em><br />
+                <a href="https://haagahelia.sharepoint.com/teams/Ohjelmointi1/Class%20Materials/monimuoto/Yhteyssuhde.pdf">Yhteyssuhde.pdf</a><br />
+                <a href="https://haagahelia.sharepoint.com/teams/Ohjelmointi1/Class%20Materials/monimuoto/ListaLuokalla.pdf">ListaLuokalla.pdf</a><br />
             </td>
         </tr>
         <tr>
             <td>Ma</td>
             <td>2.3.</td>
             <td>
-                Sisältö varmistuu myöhemmin
-                <!-- Map-tietorakenne -->
+                Olio-ohjelmoinnin syventäminen<br />
+                Optio: olioiden järjestäminen
             </td>
         </tr>
         <tr>
