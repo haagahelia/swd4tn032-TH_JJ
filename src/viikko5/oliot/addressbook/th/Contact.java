@@ -17,6 +17,10 @@ public class Contact {
         this.phone = phone;
     }
 
+    public String getName() {
+        return this.name;
+    }
+
     public String toString() {
         // Haluttu muoto: "Maija Meikäläinen (email: foo@bar.fi, phone: 5555)"
         return this.name + " (email: " + this.email + ", phone: " + this.phone + ")";
