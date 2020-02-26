@@ -145,9 +145,7 @@ Tulemme tekemään kurssilla yhteistyötä rinnakkaisten toteutusten kesken ja t
                 <strong>
                 Olio-ohjelmoinnin alkeet<br />
                 Käsitteet luokka ja olio<br />
-                Oliometodit ja -muuttujat<br />
-                </strong>
-                <br />
+                Oliometodit ja -muuttujat<br /></strong>
                 <a href="https://github.com/haagahelia/swd4tn032-TH_JJ/wiki/Oliot">📝 Muistiinpanot</a><br />
                 <a href="src/viikko4/oliot/th">📁 Esimerkkikoodit (TH)</a><br />
                 <br />
@@ -163,6 +161,8 @@ Tulemme tekemään kurssilla yhteistyötä rinnakkaisten toteutusten kesken ja t
                 Luokkien yhteyssuhteet<br/>
                 Olioita listoilla ja listoja olioissa<br/>
                 `equals`-metodi<br/> 
+                <a href="https://github.com/haagahelia/swd4tn032-TH_JJ/wiki/osoitekirja_projekti">📝 Esimerkin speksi (TH)</a><br />
+                <a href="src/viikko5/oliot/addressbook/th">📁 Esimerkkikoodit (TH)</a><br />
                 <br />
                 <em>Lisämateriaali (Teams / monimuoto):</em><br />
                 <a href="https://haagahelia.sharepoint.com/teams/Ohjelmointi1/Class%20Materials/monimuoto/Yhteyssuhde.pdf">Yhteyssuhde.pdf</a><br />
@@ -173,8 +173,8 @@ Tulemme tekemään kurssilla yhteistyötä rinnakkaisten toteutusten kesken ja t
             <td>Ma</td>
             <td>2.3.</td>
             <td>
-                Olio-ohjelmoinnin syventäminen<br />
-                Optio: olioiden järjestäminen
+                Ongelmanratkaisutapoja olio-ohjelmoinnilla<br />
+                Bonus: olioiden järjestäminen?
             </td>
         </tr>
         <tr>

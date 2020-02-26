@@ -1,5 +1,8 @@
 package viikko5.oliot.addressbook.th;
 
+/**
+ * @see https://github.com/haagahelia/swd4tn032-TH_JJ/wiki/osoitekirja_projekti
+ */
 public class AddressBookApp {
 
     public static void main(String[] args) {
