@@ -157,10 +157,10 @@ Tulemme tekemään kurssilla yhteistyötä rinnakkaisten toteutusten kesken ja t
             <td>Ke</td>
             <td>26.2.</td>
             <td>
-                Olio-ohjelmointi jatkuu:<br/>
+                <strong>Olio-ohjelmointi jatkuu:<br/>
                 Luokkien yhteyssuhteet<br/>
                 Olioita listoilla ja listoja olioissa<br/>
-                `equals`-metodi<br/> 
+                `equals`-metodi</strong><br/> 
                 <a href="https://github.com/haagahelia/swd4tn032-TH_JJ/wiki/osoitekirja_projekti">📝 Esimerkin speksi (TH)</a><br />
                 <a href="src/viikko5/oliot/addressbook/th">📁 Esimerkkikoodit (TH)</a><br />
                 <br />
