@@ -159,10 +159,9 @@ Tulemme tekemään kurssilla yhteistyötä rinnakkaisten toteutusten kesken ja t
             <td>
                 <strong>Olio-ohjelmointi jatkuu:<br/>
                 Luokkien yhteyssuhteet<br/>
-                Olioita listoilla ja listoja olioissa<br/>
-                `equals`-metodi</strong><br/> 
+                Olioita listoilla ja listoja olioissa</strong><br/> 
                 <a href="https://github.com/haagahelia/swd4tn032-TH_JJ/wiki/osoitekirja_projekti">📝 Esimerkin speksi (TH)</a><br />
-                <a href="src/viikko5/oliot/addressbook/th">📁 Esimerkkikoodit (TH)</a><br />
+                <a href="src/viikko5/oliot/addressbook/th">📁 Esimerkkikoodit (AddressBook, TH)</a><br />
                 <br />
                 <em>Lisämateriaali (Teams / monimuoto):</em><br />
                 <a href="https://haagahelia.sharepoint.com/teams/Ohjelmointi1/Class%20Materials/monimuoto/Yhteyssuhde.pdf">Yhteyssuhde.pdf</a><br />
@@ -173,8 +172,11 @@ Tulemme tekemään kurssilla yhteistyötä rinnakkaisten toteutusten kesken ja t
             <td>Ma</td>
             <td>2.3.</td>
             <td>
-                Ongelmanratkaisutapoja olio-ohjelmoinnilla<br />
-                Bonus: olioiden järjestäminen?
+                <strong>Ongelmanratkaisutapoja olio-ohjelmoinnilla<br />
+                Olioiden järjestäminen ja vertailu</strong><br/> 
+                <a href="https://github.com/haagahelia/swd4tn032-TH_JJ/wiki/Olioiden-vertailu">📝 Muistiinpanot</a><br />
+                <a href="https://github.com/haagahelia/swd4tn032-TH_JJ/wiki/osoitekirja_projekti">📝 Esimerkin speksi (TH)</a><br />
+                <a href="src/viikko5/oliot/addressbook/th">📁 Esimerkkikoodit (AddressBook, TH)</a><br />
             </td>
         </tr>
         <tr>
