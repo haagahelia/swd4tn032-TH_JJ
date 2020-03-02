@@ -8,9 +8,10 @@ import java.util.List;
 public class OlioidenJarjestaminen {
 
     public static void main(String[] args) {
-        List<String> nimet = Arrays.asList("Marja-Liisa Kirvesniemi", "Kaisa Mäkäräinen", "Krista Pärmakoski");
+        List<String> nimet = Arrays.asList("Marja-Liisa Kirvesniemi", "Kaisa Mäkäräinen", "Krista Pärmäkoski");
+
         Collections.sort(nimet);
-        System.out.println(nimet); // tulostaa [Kaisa Mäkäräinen, Krista Pärmakoski, Marja-Liisa Kirvesniemi]
+        System.out.println(nimet); // tulostaa [Kaisa Mäkäräinen, Krista Pärmäkoski, Marja-Liisa Kirvesniemi]
 
         List<Tuote> tuotteet = Arrays.asList(new Tuote("Maito"), new Tuote("Leipä"), new Tuote("Piimä"));
         // Collections.sort(tuotteet); // ei toimi, koska sort ei tiedä millä
@@ -41,8 +42,7 @@ public class OlioidenJarjestaminen {
         Collections.sort(nimet, Comparator.comparing(String::length));
 
         System.out.println(nimet);
-        // Kaisa Mäkäräinen,
-        // Krista Pärmakoski,
-        // Marja-Liisa Kirvesniemi
+        // Tulostaa nimet pituuden mukaan:
+        // Kaisa Mäkäräinen, Krista Pärmäkoski, Marja-Liisa Kirvesniemi
     }
 }

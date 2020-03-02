@@ -172,49 +172,45 @@ Tulemme tekemään kurssilla yhteistyötä rinnakkaisten toteutusten kesken ja t
             <td>Ma</td>
             <td>2.3.</td>
             <td>
-                <strong>Ongelmanratkaisutapoja olio-ohjelmoinnilla<br />
-                Olioiden järjestäminen ja vertailu</strong><br/> 
+                <strong>Olioiden vertailu ja järjestäminen</strong><br/> 
                 <a href="https://github.com/haagahelia/swd4tn032-TH_JJ/wiki/Olioiden-vertailu">📝 Muistiinpanot</a><br />
-                <a href="https://github.com/haagahelia/swd4tn032-TH_JJ/wiki/osoitekirja_projekti">📝 Esimerkin speksi (TH)</a><br />
-                <a href="src/viikko5/oliot/addressbook/th">📁 Esimerkkikoodit (AddressBook, TH)</a><br />
+                <a href="src/viikko6/oliot/vertailu">📁 Esimerkkikoodit (TH)</a><br />
             </td>
         </tr>
         <tr>
             <td>Ke</td>
             <td>4.3.</td>
-            <td>Poikkeukset</td>
+            <td><strong>Poikkeukset</strong>
+                <a href="https://github.com/haagahelia/swd4tn032-TH_JJ/wiki/Poikkeukset">📝 Muistiinpanot</a><br />
+                <a href="src/viikko6/poikkeukset/th">📁 Esimerkkikoodit (TH)</a><br />
+            </td>
         </tr>
         <tr>
             <td>Ma</td>
             <td>9.3.</td>
             <td>
-                "How to think like a programmer" -työpaja (ehdotus)
+                <strong>Tekstitiedostojen lukeminen ja tallentaminen</strong>
             </td>
         </tr>
         <tr>
             <td>Ke</td>
             <td>11.3.</td>
             <td>
-                Sisältö varmistuu myöhemmin
-                <!--ul>
-                    <li>Rajapinnat</li>
-                    <li>Periytyminen</li>
-                    <li>Comparable-rajapinnan toteuttaminen</li>
-                </ul-->
+                <strong></strong>
             </td>
         </tr>
         <tr>
             <td>Ma</td>
             <td>16.3.</td>
             <td>
-                Kokeeseen kertaus työpajamuotoisesti<br />
-                - käytännön harjoitus Clean code -hengessä
+                <strong>Kokeeseen kertaus työpajamuotoisesti<br />
+                - käytännön harjoitus Clean code -hengessä</strong>
             </td>
         </tr>
         <tr>
             <td>Ke</td>
             <td>18.3.</td>
-            <td>Koe</td>
+            <td><strong>Koe</strong></td>
         </tr>
     </tbody>
 </table>
