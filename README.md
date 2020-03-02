@@ -180,7 +180,7 @@ Tulemme tekemään kurssilla yhteistyötä rinnakkaisten toteutusten kesken ja t
         <tr>
             <td>Ke</td>
             <td>4.3.</td>
-            <td><strong>Poikkeukset</strong>
+            <td><strong>Poikkeukset</strong><br />
                 <a href="https://github.com/haagahelia/swd4tn032-TH_JJ/wiki/Poikkeukset">📝 Muistiinpanot</a><br />
                 <a href="src/viikko6/poikkeukset/th">📁 Esimerkkikoodit (TH)</a><br />
             </td>
