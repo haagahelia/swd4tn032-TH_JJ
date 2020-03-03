@@ -196,7 +196,11 @@ Tulemme tekemään kurssilla yhteistyötä rinnakkaisten toteutusten kesken ja t
             <td>Ke</td>
             <td>11.3.</td>
             <td>
-                <strong></strong>
+                <strong>Ryhmäkohtaiset pikkuprojektit:</strong><br />
+                <ul>
+                    <li>GMail-osoitekirja</li>
+                    <li>Painonvartijat</li>
+                </ul>
             </td>
         </tr>
         <tr>
