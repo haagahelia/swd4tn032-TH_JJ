@@ -42,6 +42,7 @@ public class AddressBookApp {
 
                     Contact newContact = new Contact(name, email, phone);
                     boolean added = book.add(newContact);
+
                     if (added) {
                         System.out.println("Added " + newContact);
                     } else {

@@ -42,4 +42,12 @@ public class Contact {
         // Haluttu muoto: "Maija Meikäläinen (email: foo@bar.fi, phone: 5555)"
         return this.name + " (email: " + this.email + ", phone: " + this.phone + ")";
     }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public String getEmail() {
+        return email;
+    }
 }
