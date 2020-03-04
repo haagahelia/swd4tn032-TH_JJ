@@ -13,12 +13,29 @@ public class Contact {
     // parametrillinen konstruktori (luo valideja olioita)
     public Contact(String name, String email, String phone) {
         this.name = name;
-        this.email = email;
         this.phone = phone;
+        this.setEmail(email);
     }
 
     public String getName() {
         return this.name;
+    }
+
+    public void setEmail(String email) {
+        // tarkista, että email on validi. Jos ei ole, heitä poikkeus!
+        if (!email.contains("@")) {
+            // 'throw' avainsanalla heitetään poikkeus. Poikkeukset ovat olioita, jotka
+            // luodaan new-avainsanalla. Poikkeukselle annetaan parametrina virheilmoitus:
+            throw new IllegalArgumentException(email + " is not a valid email address");
+        }
+
+        this.email = email;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        // "riittävän tarkka" vertailu vertailee olioiden merkkijonoesityksiä
+        return this.toString().equals(obj.toString());
     }
 
     public String toString() {

@@ -11,8 +11,13 @@ public class AddressBook {
         this.contacts = new ArrayList<>();
     }
 
-    public void add(Contact newContact) {
-        this.contacts.add(newContact);
+    public boolean add(Contact newContact) {
+        if (this.contacts.contains(newContact)) {
+            return false;
+        } else {
+            this.contacts.add(newContact);
+            return true;
+        }
     }
 
     /*

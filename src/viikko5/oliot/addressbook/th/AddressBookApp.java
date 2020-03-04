@@ -8,26 +8,65 @@ import java.util.Scanner;
 public class AddressBookApp {
 
     public static void main(String[] args) {
+        System.out.println("This is an address book application. Available commands:\r\n" + " list\r\n" + " help\r\n"
+                + " add <name>, <email>, <phone>\r\n" + " search <name>\r\n" + " exit");
         AddressBook book = new AddressBook();
 
         Scanner input = new Scanner(System.in);
 
-        // Kutsuu parametritonta konstruktoria (käyttää null-arvoja):
-        Contact matti = new Contact();
-        book.add(matti);
+        boolean running = true;
+        while (running) {
+            System.out.print("> ");
+            String command = input.next();
+            String theRest = input.nextLine().trim();
 
-        // Kutsuu parametrillista konstruktoria:
-        Contact maija = new Contact("Maija Meikäläinen", "maija@example.com", "+35850555556");
-        book.add(maija);
+            // ... toimintalogiikka
 
-        // null-arvo voidaan myös antaa parametrina, asettaa muuttujaan jne.
-        Contact john = new Contact("John", "john@example.com", null);
-        book.add(john);
+            switch (command) {
+            case "help":
+                // tulosta ohje
+                break;
+            case "list":
+                // tulosta osoitekirjan koko sisältö
+                System.out.println(book);
+                break;
+            case "add":
+                // käytä annettua nimeä, emailia ja puhelinnumeroa luodaksesi uuden yhteystiedon
+                String[] parts = theRest.split(",");
 
-        System.out.print("Enter keyword: ");
-        String keyword = input.nextLine();
+                try {
+                    // try-lohkon sisällä voidaan tehdä "riskialttiita" operaatioita
+                    String name = parts[0].trim();
+                    String email = parts[1].trim();
+                    String phone = parts[2].trim();
 
-        Contact found = book.search(keyword);
-        System.out.println("Found contact: " + found);
+                    Contact newContact = new Contact(name, email, phone);
+                    book.add(newContact);
+                    System.out.println("Added " + newContact);
+                } catch (ArrayIndexOutOfBoundsException poikkeus) {
+                    // catch-lohkoon päädytään vain, jos try-lohkossa tapauhtui virhe
+                    System.out.println("Virheellinen määrä arvoja");
+
+                    // ohjelma ei enää kaadu koska virheet käsitellään asianmukaisesti
+                } catch (IllegalArgumentException poikkeus) {
+                    // virheilmoitus voidaan kysyä getMessage-metodilla:
+                    System.out.println(poikkeus.getMessage());
+                }
+                break;
+            case "search":
+                // etsi yhteystietoa ja tulosta se
+                break;
+            case "exit":
+                // poistu ohjelmasta
+                System.out.println("Bye!");
+                running = false;
+                break;
+            default:
+                // tunnistamaton komento:
+                System.out.println("Unknown command");
+                break;
+            }
+            System.out.println();
+        }
     }
 }
