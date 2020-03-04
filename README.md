@@ -196,7 +196,7 @@ Tulemme tekemään kurssilla yhteistyötä rinnakkaisten toteutusten kesken ja t
             <td>
                 <strong>Tekstitiedostojen lukeminen ja tallentaminen</strong><br />
                 <a href="https://github.com/haagahelia/swd4tn032-TH_JJ/wiki/Tiedostot">📝 Muistiinpanot</a><br />
-                <a href="src/viikko7/tiedostot/th">📁 Esimerkkikoodit (AddressBook, TH)</a><br />
+                <a href="src/viikko7/tiedostot/th">📁 Esimerkkikoodit (TH)</a><br />
             </td>
         </tr>
         <tr>
