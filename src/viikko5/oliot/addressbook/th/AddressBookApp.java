@@ -41,8 +41,12 @@ public class AddressBookApp {
                     String phone = parts[2].trim();
 
                     Contact newContact = new Contact(name, email, phone);
-                    book.add(newContact);
-                    System.out.println("Added " + newContact);
+                    boolean added = book.add(newContact);
+                    if (added) {
+                        System.out.println("Added " + newContact);
+                    } else {
+                        System.out.println(newContact + " is already in the address book.");
+                    }
                 } catch (ArrayIndexOutOfBoundsException poikkeus) {
                     // catch-lohkoon päädytään vain, jos try-lohkossa tapauhtui virhe
                     System.out.println("Virheellinen määrä arvoja");
