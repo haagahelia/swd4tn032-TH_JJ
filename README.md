@@ -183,6 +183,7 @@ Tulemme tekemään kurssilla yhteistyötä rinnakkaisten toteutusten kesken ja t
             <td><strong>Poikkeukset</strong><br />
                 <a href="https://github.com/haagahelia/swd4tn032-TH_JJ/wiki/Poikkeukset">📝 Muistiinpanot</a><br />
                 <a href="src/viikko6/poikkeukset/th">📁 Esimerkkikoodit (TH)</a><br />
+                <a href="src/viikko5/oliot/addressbook/th">📁 Esimerkkikoodit (AddressBook, TH)</a><br />
             </td>
         </tr>
         <tr>
