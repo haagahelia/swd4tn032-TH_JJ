@@ -214,7 +214,12 @@ Tulemme tekemään kurssilla yhteistyötä rinnakkaisten toteutusten kesken ja t
         <tr>
             <td>Ke</td>
             <td>18.3.</td>
-            <td><strong>Koe</strong></td>
+            <td><strong>Koe</strong>
+                <ul>
+                    <li>Koe tehdään Eclipsellä ja palautetaan Viopeen</li>
+                    <li>Mukana saa olla kaksi A4-arkkia muistiinpanoja (kaksipuolisia)</li>
+                </ul>
+            </td>
         </tr>
     </tbody>
 </table>
