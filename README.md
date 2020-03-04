@@ -180,17 +180,22 @@ Tulemme tekemään kurssilla yhteistyötä rinnakkaisten toteutusten kesken ja t
         <tr>
             <td>Ke</td>
             <td>4.3.</td>
-            <td><strong>Poikkeukset</strong><br />
+            <td>
+                <strong>Poikkeukset</strong><br />
                 <a href="https://github.com/haagahelia/swd4tn032-TH_JJ/wiki/Poikkeukset">📝 Muistiinpanot</a><br />
                 <a href="src/viikko6/poikkeukset/th">📁 Esimerkkikoodit (TH)</a><br />
                 <a href="src/viikko5/oliot/addressbook/th">📁 Esimerkkikoodit (AddressBook, TH)</a><br />
+                <br />
+                <em>Lisämateriaali (Teams / monimuoto):</em><br />
+                <a href="https://haagahelia.sharepoint.com/:b:/r/teams/Ohjelmointi1/Class%20Materials/monimuoto/Poikkeus.pdf">Poikkeus.pdf</a>
             </td>
         </tr>
         <tr>
             <td>Ma</td>
             <td>9.3.</td>
             <td>
-                <strong>Tekstitiedostojen lukeminen ja tallentaminen</strong>
+                <strong>Tekstitiedostojen lukeminen ja tallentaminen</strong><br />
+                <a href="https://github.com/haagahelia/swd4tn032-TH_JJ/wiki/Tiedostot">📝 Muistiinpanot</a><br />
             </td>
         </tr>
         <tr>
@@ -217,6 +222,7 @@ Tulemme tekemään kurssilla yhteistyötä rinnakkaisten toteutusten kesken ja t
             <td>18.3.</td>
             <td><strong>Koe</strong>
                 <ul>
+                    <li>Koe alkaa klo 8:15 ja päättyy klo 10:45</li>
                     <li>Koe tehdään Eclipsellä ja palautetaan Viopeen</li>
                     <li>Mukana saa olla kaksi A4-arkkia muistiinpanoja (kaksipuolisia)</li>
                 </ul>
