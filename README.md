@@ -207,6 +207,7 @@ Tulemme tekemään kurssilla yhteistyötä rinnakkaisten toteutusten kesken ja t
                 <ul>
                     <li>GMail-osoitekirja</li>
                     <li>Painonvartijat</li>
+                    <li>Telegram-botti?</li>
                 </ul>
             </td>
         </tr>
