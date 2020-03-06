@@ -1,6 +1,6 @@
 package viikko6.oliot.vertailu;
 
-import com.sun.tools.javac.util.List;
+import java.util.List;
 
 public class TuoteOhjelma {
 
