@@ -14,29 +14,36 @@ import java.util.Scanner;
  */
 public class WeatherApp {
 
-    // Motivaatio:
-    //
-    // 1. WeatherApp-luokassa en halua tietää tarkasti mitä CSV-tiedosto pitää
-    // sisällään
-    //
-    // 2. En halua käsitellä tiedostoihin liittyviä poikkeuksia
-    //
-    // Ratkaisu: eriytän tiedostonkäsittelyn omaan luokkaansa (WeatherFileUtility)
+    /*
+     * Motivaatio logiikan jakaminen useisiin eri luokkiin:
+     *
+     * - WeatherApp-luokassa en halua tietää tarkasti, mitä CSV-tiedosto pitää
+     * sisällään
+     *
+     * - En halua käsitellä tiedostoihin liittyviä poikkeuksia tässä luokassa
+     *
+     * Ratkaisu: eriytän tiedostonkäsittelyn omaan luokkaansa **WeatherFileUtility**
+     */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
+        // Tällä oliolla suoritetaan tiedosto-operaatiot:
         WeatherFileUtility fileUtility = new WeatherFileUtility();
 
+        // Tiedostoluokka palauttaa listan DailyWeather-olioita, jotka luettiin
+        // tiedostosta:
         List<DailyWeather> weatherObservations = fileUtility.readObservations();
 
-        // Kysytään tämän päivän tiedot ja tallennetaan ne tiedostoon!
-        LocalDate today = LocalDate.now();
-
+        // Kysytään vielä tämän päivän tiedot ja luodaan tätä päivää varten uusi
+        // DailyWeather-olio!
         System.out.print("Enter maximum and minimum temperature for today: ");
         double maxTemp = input.nextDouble();
         double minTemp = input.nextDouble();
 
+        LocalDate today = LocalDate.now();
         DailyWeather currentWeather = new DailyWeather(today, maxTemp, minTemp);
+
+        // Tämän päivän säätiedot laitetaan listalle viimeiseksi:
         weatherObservations.add(currentWeather);
 
         System.out.println(weatherObservations.size() + " daily observations in total");
@@ -49,11 +56,14 @@ public class WeatherApp {
         DailyWeather coldest = findColdest(weatherObservations);
         System.out.println("Coldest day: " + coldest);
 
+        // Tallennetaan luetut tiedot sekä nykyisen päivän säätiedot takaisin
+        // tiedostoon:
         fileUtility.writeObservations(weatherObservations);
     }
 
-    // Selvittää, mikä listan päivistä on lämpimin ja palauttaa sen
+    /* Selvittää, mikä listan päivistä on lämpimin ja palauttaa sen. */
     private static DailyWeather findWarmest(List<DailyWeather> all) {
+        // max-muuttuja on "sopivimman säilyttäjä"
         DailyWeather max = all.get(0);
 
         // Käydään kaikki arvot läpi
@@ -70,8 +80,11 @@ public class WeatherApp {
         return max;
     }
 
-    // Vertailua ei tarvitse tehdä metodiviittauksilla! Katso esim. `findWarmest`
+    /* Vertailua ei tarvitse tehdä metodiviittauksilla! Katso esim. `findWarmest` */
     private static DailyWeather findColdest(List<DailyWeather> all) {
+        // DailyWeather::getMinTemp on metodiviittaus. Comparator.comparing käyttää sitä
+        // vertaillakseen DailyWeather-olioita toisiinsa. Collections.min etsii
+        // vertailujen perusteella pienimmän arvon:
         return Collections.min(all, Comparator.comparing(DailyWeather::getMinTemp));
     }
 }

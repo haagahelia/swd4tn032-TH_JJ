@@ -7,13 +7,13 @@ import java.time.LocalDate;
  * Ilmatieteen Laitoksen havaintotiedostosta.
  */
 public class DailyWeather {
-    // Vuosi Kk Pv
+    // CSV:n sarakkeet: "Vuosi", "Kk" ja "Pv"
     private LocalDate date;
 
-    // Ylin lämpötila (degC)
+    // CSV:n sarake: "Ylin lämpötila (degC)"
     private double maxTemp;
 
-    // Alin lämpötila (degC)
+    // CSV:n sarake: "Alin lämpötila (degC)"
     private double minTemp;
 
     public DailyWeather(LocalDate date, double max, double min) {
