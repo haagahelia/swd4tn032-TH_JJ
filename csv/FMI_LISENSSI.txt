@@ -1,0 +1,10 @@
+Säätietojen lisenssi:
+
+Creative Commons Attribution 4.0 International license (valid as of 1 March 2015)
+The Creative Commons Attribution 4.0 International license (CC BY 4.0) shall be used by the Finnish Meteorological Institute's open data service. The license shall apply to the FMI's, the Finnish Transport Agency's, and the Radiation and Nuclear Safety Authority's open data sets as well as air quality data sets that are stored in the open data web-service.
+
+License:
+
+https://creativecommons.org/licenses/by/4.0/
+
+https://en.ilmatieteenlaitos.fi/open-data-licence
