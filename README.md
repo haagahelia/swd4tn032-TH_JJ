@@ -196,7 +196,9 @@ Tulemme tekemään kurssilla yhteistyötä rinnakkaisten toteutusten kesken ja t
             <td>
                 <strong>Tekstitiedostojen lukeminen ja tallentaminen</strong><br />
                 <a href="https://github.com/haagahelia/swd4tn032-TH_JJ/wiki/Tiedostot">📝 Muistiinpanot</a><br />
-                <a href="src/viikko7/tiedostot/th">📁 Esimerkkikoodit (TH)</a><br />
+                <a href="src/viikko7/tiedostot/th/weather">📁 Weather data -esimerkki (TH)</a><br />
+                <a href="csv/saatiedot.csv">📁 saatiedot.csv (<a href="https://en.ilmatieteenlaitos.fi/open-data-licence">© Ilmatieteen laitos</a>)</a><br />
+                <a href="src/viikko7/tiedostot/th">📁 Muut esimerkkikoodit (TH)</a><br />
             </td>
         </tr>
         <tr>

@@ -1,13 +1,10 @@
-package viikko7.tiedostot.th;
+package viikko7.tiedostot.th.weather;
 
 import java.time.LocalDate;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Scanner;
-
-import viikko7.tiedostot.th.weather.DailyWeather;
-import viikko7.tiedostot.th.weather.WeatherFileUtility;
 
 /*
  * WeatherApp on ohjelmaluokka, jonka tarkoitus on ainoastaan tarjota
