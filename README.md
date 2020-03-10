@@ -217,8 +217,8 @@ Tulemme tekemään kurssilla yhteistyötä rinnakkaisten toteutusten kesken ja t
             <td>Ma</td>
             <td>16.3.</td>
             <td>
-                <strong>Kokeeseen kertaus työpajamuotoisesti<br />
-                - käytännön harjoitus Clean code -hengessä</strong>
+                <strong>Kokeeseen kertaus ja harjoituskoe</strong><br />
+                Harjoituskoe löytyy Viopesta. **Harjoituskokeesta ei saa pisteitä eikä bonuspisteitä** ja sen tekeminen on täysin vapaaehtoista.
             </td>
         </tr>
         <tr>
