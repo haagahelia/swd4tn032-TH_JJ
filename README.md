@@ -229,6 +229,7 @@ Tulemme tekemään kurssilla yhteistyötä rinnakkaisten toteutusten kesken ja t
                     <li>Koe alkaa klo 8:15 ja päättyy klo 10:45</li>
                     <li>Koe tehdään Eclipsellä ja palautetaan Viopeen</li>
                     <li>Mukana saa olla kaksi A4-arkkia muistiinpanoja (kaksipuolisia)</li>
+                    <li>Kokeen tehtävät arvioidaan manuaalisesti Viopen automaattisen tarkistuksen lisäksi</li>
                 </ul>
             </td>
         </tr>
